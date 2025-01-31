@@ -1,0 +1,166 @@
+2025-01-30 01:01:42.903621: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /.singularity.d/libs
+2025-01-30 01:01:44.188985: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /.singularity.d/libs
+2025-01-30 01:01:44.189054: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /.singularity.d/libs
+2025-01-30 01:01:44.189062: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+/usr/local/lib/python3.10/dist-packages/tensorflow_addons/utils/tfa_eol_msg.py:23: UserWarning: 
+
+TensorFlow Addons (TFA) has ended development and introduction of new features.
+TFA has entered a minimal maintenance and release mode until a planned end of life in May 2024.
+Please modify downstream libraries to take dependencies from other repositories in our TensorFlow community (e.g. Keras, Keras-CV, and Keras-NLP). 
+
+For more information see: https://github.com/tensorflow/addons/issues/2807 
+
+  warnings.warn(
+2025-01-30 01:01:46.880558: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /.singularity.d/libs
+2025-01-30 01:01:46.880593: W tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:265] failed call to cuInit: UNKNOWN ERROR (303)
+I0130 01:01:46.880755 140130161414144 call_variants.py:918] call_variants: env = {'PYTHON_VERSION': '3.10', 'SINGULARITY_NAME': 'deepvariant_1.8.0.sif', 'TF_CPP_MIN_LOG_LEVEL': '1', 'DV_GPU_BUILD': '0', 'SINGULARITY_ENVIRONMENT': '/.singularity.d/env/91-environment.sh', 'PWD': '/workdir', 'TF_ENABLE_ONEDNN_OPTS': '1', '_': '/usr/bin/python3', 'HOME': '/home/splaisan', 'LANG': 'C', 'SINGULARITY_CONTAINER': '/data/NC_projects/4920_Spriem_ArgenX_rats/bin/deepvariant_1.8.0.sif', 'PROMPT_COMMAND': 'PS1="Apptainer> "; unset PROMPT_COMMAND', 'TERM': 'screen-256color', 'TPU_ML_PLATFORM': 'Tensorflow', 'SHLVL': '3', 'SINGULARITY_BIND': '/data/NC_projects/4920_Spriem_ArgenX_rats:/workdir', 'LD_LIBRARY_PATH': '/.singularity.d/libs', 'LC_CTYPE': 'C.UTF-8', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/conda/bin:/opt/conda/envs/bio/bin:/opt/deepvariant/bin', 'TF2_BEHAVIOR': '1', 'VERSION': '1.8.0', 'SINGULARITY_COMMAND': 'run', 'PYTHONPATH': '/tmp/Bazel.runfiles_8lxpvh13/runfiles:/tmp/Bazel.runfiles_8lxpvh13/runfiles/com_google_protobuf/python:/tmp/Bazel.runfiles_8lxpvh13/runfiles/absl_py:/tmp/Bazel.runfiles_8lxpvh13/runfiles/bazel_tools:/tmp/Bazel.runfiles_8lxpvh13/runfiles/com_google_deepvariant:/tmp/Bazel.runfiles_8lxpvh13/runfiles/com_google_protobuf:/tmp/Bazel.runfiles_8lxpvh13/runfiles/six_archive', 'RUNFILES_DIR': '/tmp/Bazel.runfiles_8lxpvh13/runfiles'}
+I0130 01:01:47.169406 140130161414144 call_variants.py:785] Total 1 writing processes started.
+I0130 01:01:47.171636 140130161414144 call_variants.py:796] Use saved model: True
+I0130 01:01:47.172652 140130161414144 dv_utils.py:325] From /workdir/tmpfiles/make_examples.tfrecord-00000-of-00040.gz.example_info.json: Shape of input examples: [100, 221, 7], Channels of input examples: [1, 2, 3, 4, 5, 6, 19].
+I0130 01:01:55.598084 140130161414144 dv_utils.py:325] From /opt/models/wgs/example_info.json: Shape of input examples: [100, 221, 7], Channels of input examples: [1, 2, 3, 4, 5, 6, 19].
+I0130 01:01:55.598259 140130161414144 call_variants.py:814] example_shape: [100, 221, 7]
+I0130 01:02:04.466331 140130161414144 call_variants.py:891] Predicted 1024 examples in 1 batches [0.834 sec per 100].
+I0130 01:05:33.880970 140130161414144 call_variants.py:891] Predicted 52224 examples in 51 batches [0.417 sec per 100].
+I0130 01:08:59.465040 140130161414144 call_variants.py:891] Predicted 103424 examples in 101 batches [0.410 sec per 100].
+I0130 01:12:33.520294 140130161414144 call_variants.py:891] Predicted 154624 examples in 151 batches [0.412 sec per 100].
+I0130 01:16:05.520134 140130161414144 call_variants.py:891] Predicted 205824 examples in 201 batches [0.413 sec per 100].
+I0130 01:19:33.485731 140130161414144 call_variants.py:891] Predicted 257024 examples in 251 batches [0.411 sec per 100].
+I0130 01:22:57.902464 140130161414144 call_variants.py:891] Predicted 308224 examples in 301 batches [0.409 sec per 100].
+I0130 01:26:22.667445 140130161414144 call_variants.py:891] Predicted 359424 examples in 351 batches [0.408 sec per 100].
+I0130 01:29:50.089967 140130161414144 call_variants.py:891] Predicted 410624 examples in 401 batches [0.408 sec per 100].
+I0130 01:33:15.006432 140130161414144 call_variants.py:891] Predicted 461824 examples in 451 batches [0.407 sec per 100].
+I0130 01:36:41.684449 140130161414144 call_variants.py:891] Predicted 513024 examples in 501 batches [0.407 sec per 100].
+I0130 01:40:08.729877 140130161414144 call_variants.py:891] Predicted 564224 examples in 551 batches [0.406 sec per 100].
+I0130 01:43:36.253765 140130161414144 call_variants.py:891] Predicted 615424 examples in 601 batches [0.406 sec per 100].
+I0130 01:47:03.617886 140130161414144 call_variants.py:891] Predicted 666624 examples in 651 batches [0.406 sec per 100].
+I0130 01:50:31.242078 140130161414144 call_variants.py:891] Predicted 717824 examples in 701 batches [0.406 sec per 100].
+I0130 01:53:56.522919 140130161414144 call_variants.py:891] Predicted 769024 examples in 751 batches [0.406 sec per 100].
+I0130 01:57:21.985258 140130161414144 call_variants.py:891] Predicted 820224 examples in 801 batches [0.406 sec per 100].
+I0130 02:00:49.145998 140130161414144 call_variants.py:891] Predicted 871424 examples in 851 batches [0.405 sec per 100].
+I0130 02:04:15.793774 140130161414144 call_variants.py:891] Predicted 922624 examples in 901 batches [0.405 sec per 100].
+I0130 02:07:43.239371 140130161414144 call_variants.py:891] Predicted 973824 examples in 951 batches [0.405 sec per 100].
+I0130 02:11:10.884058 140130161414144 call_variants.py:891] Predicted 1025024 examples in 1001 batches [0.405 sec per 100].
+I0130 02:14:36.702870 140130161414144 call_variants.py:891] Predicted 1076224 examples in 1051 batches [0.405 sec per 100].
+I0130 02:18:02.966648 140130161414144 call_variants.py:891] Predicted 1127424 examples in 1101 batches [0.405 sec per 100].
+I0130 02:21:31.364342 140130161414144 call_variants.py:891] Predicted 1178624 examples in 1151 batches [0.405 sec per 100].
+I0130 02:24:58.675414 140130161414144 call_variants.py:891] Predicted 1229824 examples in 1201 batches [0.405 sec per 100].
+I0130 02:28:25.253221 140130161414144 call_variants.py:891] Predicted 1281024 examples in 1251 batches [0.405 sec per 100].
+I0130 02:31:50.043866 140130161414144 call_variants.py:891] Predicted 1332224 examples in 1301 batches [0.405 sec per 100].
+I0130 02:35:17.292845 140130161414144 call_variants.py:891] Predicted 1383424 examples in 1351 batches [0.405 sec per 100].
+I0130 02:38:45.307613 140130161414144 call_variants.py:891] Predicted 1434624 examples in 1401 batches [0.405 sec per 100].
+I0130 02:42:13.032895 140130161414144 call_variants.py:891] Predicted 1485824 examples in 1451 batches [0.405 sec per 100].
+I0130 02:45:38.727560 140130161414144 call_variants.py:891] Predicted 1537024 examples in 1501 batches [0.405 sec per 100].
+I0130 02:49:06.446805 140130161414144 call_variants.py:891] Predicted 1588224 examples in 1551 batches [0.405 sec per 100].
+I0130 02:52:33.952665 140130161414144 call_variants.py:891] Predicted 1639424 examples in 1601 batches [0.405 sec per 100].
+I0130 02:56:00.613500 140130161414144 call_variants.py:891] Predicted 1690624 examples in 1651 batches [0.405 sec per 100].
+I0130 02:59:28.080772 140130161414144 call_variants.py:891] Predicted 1741824 examples in 1701 batches [0.405 sec per 100].
+I0130 03:02:55.077854 140130161414144 call_variants.py:891] Predicted 1793024 examples in 1751 batches [0.405 sec per 100].
+I0130 03:06:22.651871 140130161414144 call_variants.py:891] Predicted 1844224 examples in 1801 batches [0.405 sec per 100].
+I0130 03:09:48.820338 140130161414144 call_variants.py:891] Predicted 1895424 examples in 1851 batches [0.405 sec per 100].
+I0130 03:13:14.551221 140130161414144 call_variants.py:891] Predicted 1946624 examples in 1901 batches [0.405 sec per 100].
+I0130 03:16:40.272494 140130161414144 call_variants.py:891] Predicted 1997824 examples in 1951 batches [0.405 sec per 100].
+I0130 03:20:04.774751 140130161414144 call_variants.py:891] Predicted 2049024 examples in 2001 batches [0.405 sec per 100].
+I0130 03:23:32.498384 140130161414144 call_variants.py:891] Predicted 2100224 examples in 2051 batches [0.405 sec per 100].
+I0130 03:26:59.208319 140130161414144 call_variants.py:891] Predicted 2151424 examples in 2101 batches [0.405 sec per 100].
+I0130 03:30:24.463261 140130161414144 call_variants.py:891] Predicted 2202624 examples in 2151 batches [0.404 sec per 100].
+I0130 03:33:51.699897 140130161414144 call_variants.py:891] Predicted 2253824 examples in 2201 batches [0.404 sec per 100].
+I0130 03:37:16.703497 140130161414144 call_variants.py:891] Predicted 2305024 examples in 2251 batches [0.404 sec per 100].
+I0130 03:40:41.683840 140130161414144 call_variants.py:891] Predicted 2356224 examples in 2301 batches [0.404 sec per 100].
+I0130 03:44:07.730823 140130161414144 call_variants.py:891] Predicted 2407424 examples in 2351 batches [0.404 sec per 100].
+I0130 03:47:34.570546 140130161414144 call_variants.py:891] Predicted 2458624 examples in 2401 batches [0.404 sec per 100].
+I0130 03:51:00.842290 140130161414144 call_variants.py:891] Predicted 2509824 examples in 2451 batches [0.404 sec per 100].
+I0130 03:54:28.637363 140130161414144 call_variants.py:891] Predicted 2561024 examples in 2501 batches [0.404 sec per 100].
+I0130 03:57:53.649611 140130161414144 call_variants.py:891] Predicted 2612224 examples in 2551 batches [0.404 sec per 100].
+I0130 04:01:18.749450 140130161414144 call_variants.py:891] Predicted 2663424 examples in 2601 batches [0.404 sec per 100].
+I0130 04:04:43.397373 140130161414144 call_variants.py:891] Predicted 2714624 examples in 2651 batches [0.404 sec per 100].
+I0130 04:08:07.884928 140130161414144 call_variants.py:891] Predicted 2765824 examples in 2701 batches [0.404 sec per 100].
+I0130 04:11:32.552731 140130161414144 call_variants.py:891] Predicted 2817024 examples in 2751 batches [0.404 sec per 100].
+I0130 04:14:56.937474 140130161414144 call_variants.py:891] Predicted 2868224 examples in 2801 batches [0.404 sec per 100].
+I0130 04:18:21.731009 140130161414144 call_variants.py:891] Predicted 2919424 examples in 2851 batches [0.404 sec per 100].
+I0130 04:21:48.809562 140130161414144 call_variants.py:891] Predicted 2970624 examples in 2901 batches [0.404 sec per 100].
+I0130 04:25:16.314226 140130161414144 call_variants.py:891] Predicted 3021824 examples in 2951 batches [0.404 sec per 100].
+I0130 04:28:44.701790 140130161414144 call_variants.py:891] Predicted 3073024 examples in 3001 batches [0.404 sec per 100].
+I0130 04:32:13.198563 140130161414144 call_variants.py:891] Predicted 3124224 examples in 3051 batches [0.404 sec per 100].
+I0130 04:35:41.903187 140130161414144 call_variants.py:891] Predicted 3175424 examples in 3101 batches [0.404 sec per 100].
+I0130 04:39:09.598610 140130161414144 call_variants.py:891] Predicted 3226624 examples in 3151 batches [0.404 sec per 100].
+I0130 04:42:36.400086 140130161414144 call_variants.py:891] Predicted 3277824 examples in 3201 batches [0.404 sec per 100].
+I0130 04:46:01.178848 140130161414144 call_variants.py:891] Predicted 3329024 examples in 3251 batches [0.404 sec per 100].
+I0130 04:49:28.276318 140130161414144 call_variants.py:891] Predicted 3380224 examples in 3301 batches [0.404 sec per 100].
+I0130 04:52:54.371817 140130161414144 call_variants.py:891] Predicted 3431424 examples in 3351 batches [0.404 sec per 100].
+I0130 04:56:21.265755 140130161414144 call_variants.py:891] Predicted 3482624 examples in 3401 batches [0.404 sec per 100].
+I0130 04:59:48.861077 140130161414144 call_variants.py:891] Predicted 3533824 examples in 3451 batches [0.404 sec per 100].
+I0130 05:03:13.024633 140130161414144 call_variants.py:891] Predicted 3585024 examples in 3501 batches [0.404 sec per 100].
+I0130 05:06:37.932588 140130161414144 call_variants.py:891] Predicted 3636224 examples in 3551 batches [0.404 sec per 100].
+I0130 05:10:03.830744 140130161414144 call_variants.py:891] Predicted 3687424 examples in 3601 batches [0.404 sec per 100].
+I0130 05:13:29.325125 140130161414144 call_variants.py:891] Predicted 3738624 examples in 3651 batches [0.404 sec per 100].
+I0130 05:16:53.550212 140130161414144 call_variants.py:891] Predicted 3789824 examples in 3701 batches [0.404 sec per 100].
+I0130 05:20:19.274353 140130161414144 call_variants.py:891] Predicted 3841024 examples in 3751 batches [0.404 sec per 100].
+I0130 05:23:45.229136 140130161414144 call_variants.py:891] Predicted 3892224 examples in 3801 batches [0.404 sec per 100].
+I0130 05:27:09.993608 140130161414144 call_variants.py:891] Predicted 3943424 examples in 3851 batches [0.404 sec per 100].
+I0130 05:30:34.513285 140130161414144 call_variants.py:891] Predicted 3994624 examples in 3901 batches [0.404 sec per 100].
+I0130 05:33:59.725078 140130161414144 call_variants.py:891] Predicted 4045824 examples in 3951 batches [0.403 sec per 100].
+I0130 05:37:23.657122 140130161414144 call_variants.py:891] Predicted 4097024 examples in 4001 batches [0.403 sec per 100].
+I0130 05:40:48.723041 140130161414144 call_variants.py:891] Predicted 4148224 examples in 4051 batches [0.403 sec per 100].
+I0130 05:44:13.457722 140130161414144 call_variants.py:891] Predicted 4199424 examples in 4101 batches [0.403 sec per 100].
+I0130 05:47:38.169790 140130161414144 call_variants.py:891] Predicted 4250624 examples in 4151 batches [0.403 sec per 100].
+I0130 05:51:01.447261 140130161414144 call_variants.py:891] Predicted 4301824 examples in 4201 batches [0.403 sec per 100].
+I0130 05:54:26.283362 140130161414144 call_variants.py:891] Predicted 4353024 examples in 4251 batches [0.403 sec per 100].
+I0130 05:57:51.037637 140130161414144 call_variants.py:891] Predicted 4404224 examples in 4301 batches [0.403 sec per 100].
+I0130 06:01:15.642073 140130161414144 call_variants.py:891] Predicted 4455424 examples in 4351 batches [0.403 sec per 100].
+I0130 06:04:40.142315 140130161414144 call_variants.py:891] Predicted 4506624 examples in 4401 batches [0.403 sec per 100].
+I0130 06:08:06.988777 140130161414144 call_variants.py:891] Predicted 4557824 examples in 4451 batches [0.403 sec per 100].
+I0130 06:11:30.118404 140130161414144 call_variants.py:891] Predicted 4609024 examples in 4501 batches [0.403 sec per 100].
+I0130 06:14:54.023867 140130161414144 call_variants.py:891] Predicted 4660224 examples in 4551 batches [0.403 sec per 100].
+I0130 06:18:18.589022 140130161414144 call_variants.py:891] Predicted 4711424 examples in 4601 batches [0.403 sec per 100].
+I0130 06:21:40.897113 140130161414144 call_variants.py:891] Predicted 4762624 examples in 4651 batches [0.403 sec per 100].
+I0130 06:25:05.916008 140130161414144 call_variants.py:891] Predicted 4813824 examples in 4701 batches [0.403 sec per 100].
+I0130 06:28:28.544491 140130161414144 call_variants.py:891] Predicted 4865024 examples in 4751 batches [0.403 sec per 100].
+I0130 06:31:55.225587 140130161414144 call_variants.py:891] Predicted 4916224 examples in 4801 batches [0.403 sec per 100].
+I0130 06:35:18.975694 140130161414144 call_variants.py:891] Predicted 4967424 examples in 4851 batches [0.403 sec per 100].
+I0130 06:38:42.586374 140130161414144 call_variants.py:891] Predicted 5018624 examples in 4901 batches [0.403 sec per 100].
+I0130 06:42:06.865431 140130161414144 call_variants.py:891] Predicted 5069824 examples in 4951 batches [0.403 sec per 100].
+I0130 06:45:31.205145 140130161414144 call_variants.py:891] Predicted 5121024 examples in 5001 batches [0.403 sec per 100].
+I0130 06:48:55.195155 140130161414144 call_variants.py:891] Predicted 5172224 examples in 5051 batches [0.403 sec per 100].
+I0130 06:52:18.503311 140130161414144 call_variants.py:891] Predicted 5223424 examples in 5101 batches [0.402 sec per 100].
+I0130 06:55:43.836952 140130161414144 call_variants.py:891] Predicted 5274624 examples in 5151 batches [0.402 sec per 100].
+I0130 06:59:12.050663 140130161414144 call_variants.py:891] Predicted 5325824 examples in 5201 batches [0.402 sec per 100].
+I0130 07:02:39.282391 140130161414144 call_variants.py:891] Predicted 5377024 examples in 5251 batches [0.403 sec per 100].
+I0130 07:06:05.384605 140130161414144 call_variants.py:891] Predicted 5428224 examples in 5301 batches [0.403 sec per 100].
+I0130 07:09:32.723263 140130161414144 call_variants.py:891] Predicted 5479424 examples in 5351 batches [0.403 sec per 100].
+I0130 07:12:59.822824 140130161414144 call_variants.py:891] Predicted 5530624 examples in 5401 batches [0.403 sec per 100].
+I0130 07:16:24.628005 140130161414144 call_variants.py:891] Predicted 5581824 examples in 5451 batches [0.403 sec per 100].
+I0130 07:19:49.556660 140130161414144 call_variants.py:891] Predicted 5633024 examples in 5501 batches [0.403 sec per 100].
+I0130 07:23:15.745644 140130161414144 call_variants.py:891] Predicted 5684224 examples in 5551 batches [0.403 sec per 100].
+I0130 07:26:42.097810 140130161414144 call_variants.py:891] Predicted 5735424 examples in 5601 batches [0.403 sec per 100].
+I0130 07:30:09.602857 140130161414144 call_variants.py:891] Predicted 5786624 examples in 5651 batches [0.403 sec per 100].
+I0130 07:33:36.935047 140130161414144 call_variants.py:891] Predicted 5837824 examples in 5701 batches [0.403 sec per 100].
+I0130 07:37:02.453222 140130161414144 call_variants.py:891] Predicted 5889024 examples in 5751 batches [0.403 sec per 100].
+I0130 07:40:30.592856 140130161414144 call_variants.py:891] Predicted 5940224 examples in 5801 batches [0.403 sec per 100].
+I0130 07:43:57.510751 140130161414144 call_variants.py:891] Predicted 5991424 examples in 5851 batches [0.403 sec per 100].
+I0130 07:47:22.581055 140130161414144 call_variants.py:891] Predicted 6042624 examples in 5901 batches [0.403 sec per 100].
+I0130 07:50:49.835354 140130161414144 call_variants.py:891] Predicted 6093824 examples in 5951 batches [0.403 sec per 100].
+I0130 07:54:12.360866 140130161414144 call_variants.py:891] Predicted 6145024 examples in 6001 batches [0.403 sec per 100].
+I0130 07:57:33.583156 140130161414144 call_variants.py:891] Predicted 6196224 examples in 6051 batches [0.402 sec per 100].
+I0130 08:00:57.139687 140130161414144 call_variants.py:891] Predicted 6247424 examples in 6101 batches [0.402 sec per 100].
+I0130 08:04:21.709852 140130161414144 call_variants.py:891] Predicted 6298624 examples in 6151 batches [0.402 sec per 100].
+I0130 08:07:48.053741 140130161414144 call_variants.py:891] Predicted 6349824 examples in 6201 batches [0.402 sec per 100].
+I0130 08:11:12.627899 140130161414144 call_variants.py:891] Predicted 6401024 examples in 6251 batches [0.402 sec per 100].
+I0130 08:14:36.122809 140130161414144 call_variants.py:891] Predicted 6452224 examples in 6301 batches [0.402 sec per 100].
+I0130 08:18:00.324136 140130161414144 call_variants.py:891] Predicted 6503424 examples in 6351 batches [0.402 sec per 100].
+I0130 08:21:26.075329 140130161414144 call_variants.py:891] Predicted 6554624 examples in 6401 batches [0.402 sec per 100].
+I0130 08:24:49.499185 140130161414144 call_variants.py:891] Predicted 6605824 examples in 6451 batches [0.402 sec per 100].
+I0130 08:28:14.423995 140130161414144 call_variants.py:891] Predicted 6657024 examples in 6501 batches [0.402 sec per 100].
+I0130 08:31:41.497995 140130161414144 call_variants.py:891] Predicted 6708224 examples in 6551 batches [0.402 sec per 100].
+I0130 08:35:07.131760 140130161414144 call_variants.py:891] Predicted 6759424 examples in 6601 batches [0.402 sec per 100].
+I0130 08:38:31.075585 140130161414144 call_variants.py:891] Predicted 6810624 examples in 6651 batches [0.402 sec per 100].
+I0130 08:41:54.375093 140130161414144 call_variants.py:891] Predicted 6861824 examples in 6701 batches [0.402 sec per 100].
+I0130 08:45:19.810448 140130161414144 call_variants.py:891] Predicted 6913024 examples in 6751 batches [0.402 sec per 100].
+I0130 08:48:46.110114 140130161414144 call_variants.py:891] Predicted 6964224 examples in 6801 batches [0.402 sec per 100].
+I0130 08:52:08.980025 140130161414144 call_variants.py:891] Predicted 7015424 examples in 6851 batches [0.402 sec per 100].
+I0130 08:55:33.588098 140130161414144 call_variants.py:891] Predicted 7066624 examples in 6901 batches [0.402 sec per 100].
+I0130 08:58:59.429940 140130161414144 call_variants.py:891] Predicted 7117824 examples in 6951 batches [0.402 sec per 100].
+I0130 08:59:53.232073 140130161414144 call_variants.py:967] Complete: call_variants.
+
+real	478m15.349s
+user	8209m0.780s
+sys	13m13.073s

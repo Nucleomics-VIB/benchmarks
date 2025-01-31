@@ -1,0 +1,496 @@
+2025-01-30 16:50:11.148605: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /.singularity.d/libs
+2025-01-30 16:50:12.247233: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /.singularity.d/libs
+2025-01-30 16:50:12.247320: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /.singularity.d/libs
+2025-01-30 16:50:12.247330: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2025-01-30 16:50:13.991213: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /.singularity.d/libs
+2025-01-30 16:50:13.991238: W tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:265] failed call to cuInit: UNKNOWN ERROR (303)
+I0130 16:50:14.155646 139741307064320 postprocess_variants.py:1445] Using sample name from call_variants output. Sample name: SRR29676017
+I0130 16:51:26.072260 139741307064320 postprocess_variants.py:1311] Processing region X:33098946-X:66197892
+I0130 16:51:26.073119 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.1871092200279236 minutes
+I0130 16:51:26.074759 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:26.074903 139741307064320 postprocess_variants.py:1330] Processed 81282 variants.
+I0130 16:51:26.075704 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.187152620156606 minutes
+I0130 16:51:26.383488 139741307064320 postprocess_variants.py:1311] Processing region 8:99296838-8:123900184
+I0130 16:51:26.386986 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.19558527469635 minutes
+I0130 16:51:26.389274 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:26.389635 139741307064320 postprocess_variants.py:1330] Processed 141434 variants.
+I0130 16:51:26.390302 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.1956408699353536 minutes
+I0130 16:51:26.909431 139741307064320 postprocess_variants.py:1311] Processing region 13:33098946-13:66197892
+I0130 16:51:26.913203 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2028984626134236 minutes
+I0130 16:51:26.915248 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:26.915661 139741307064320 postprocess_variants.py:1330] Processed 146827 variants.
+I0130 16:51:26.916475 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.202953314781189 minutes
+I0130 16:51:27.474689 139741307064320 postprocess_variants.py:1311] Processing region 10:66197892-10:107211142
+I0130 16:51:27.478414 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2132523894309997 minutes
+I0130 16:51:27.480531 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:27.480925 139741307064320 postprocess_variants.py:1330] Processed 163996 variants.
+I0130 16:51:27.481570 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2133052706718446 minutes
+I0130 16:51:27.511634 139741307064320 postprocess_variants.py:1311] Processing region 7:66197892-7:99296838
+I0130 16:51:27.515175 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2144266684850058 minutes
+I0130 16:51:27.517343 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:27.517721 139741307064320 postprocess_variants.py:1330] Processed 126462 variants.
+I0130 16:51:27.518450 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2144815564155578 minutes
+I0130 16:51:28.109701 139741307064320 postprocess_variants.py:1311] Processing region 2:0-2:33098946
+I0130 16:51:28.110572 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2245537916819254 minutes
+I0130 16:51:28.112374 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:28.112585 139741307064320 postprocess_variants.py:1330] Processed 193910 variants.
+I0130 16:51:28.113592 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2246041854222616 minutes
+I0130 16:51:28.144418 139741307064320 postprocess_variants.py:1311] Processing region 6:99296838-6:132395784
+I0130 16:51:28.145336 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2249562660853068 minutes
+I0130 16:51:28.146924 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:28.147122 139741307064320 postprocess_variants.py:1330] Processed 156551 variants.
+I0130 16:51:28.147622 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2249946554501852 minutes
+I0130 16:51:29.259334 139741307064320 postprocess_variants.py:1311] Processing region 18:33098946-18:66197892
+I0130 16:51:29.260179 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2411949992179871 minutes
+I0130 16:51:29.261791 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:29.261934 139741307064320 postprocess_variants.py:1330] Processed 151466 variants.
+I0130 16:51:29.262714 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2412375489870706 minutes
+I0130 16:51:29.851218 139741307064320 postprocess_variants.py:1311] Processing region 9:66197892-9:114175309
+I0130 16:51:29.852040 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2532290776570638 minutes
+I0130 16:51:29.853636 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:29.853774 139741307064320 postprocess_variants.py:1330] Processed 160785 variants.
+I0130 16:51:29.854243 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2532661358515422 minutes
+I0130 16:51:29.890595 139741307064320 postprocess_variants.py:1311] Processing region 1:99296838-1:132395784
+I0130 16:51:29.894058 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2543082038561504 minutes
+I0130 16:51:29.896267 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:29.896681 139741307064320 postprocess_variants.py:1330] Processed 187885 variants.
+I0130 16:51:29.899369 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.254396903514862 minutes
+I0130 16:51:30.397410 139741307064320 postprocess_variants.py:1311] Processing region 12:0-12:33098946
+I0130 16:51:30.398170 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2612597862879436 minutes
+I0130 16:51:30.399528 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:30.399671 139741307064320 postprocess_variants.py:1330] Processed 215016 variants.
+I0130 16:51:30.400058 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2612915873527526 minutes
+I0130 16:51:30.525141 139741307064320 postprocess_variants.py:1311] Processing region 5:99296838-5:132395784
+I0130 16:51:30.529824 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2647370974222818 minutes
+I0130 16:51:30.532094 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:30.532472 139741307064320 postprocess_variants.py:1330] Processed 149357 variants.
+I0130 16:51:30.533165 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2647931138674418 minutes
+I0130 16:51:30.883121 139741307064320 postprocess_variants.py:1311] Processing region 3:132395784-3:169034231
+I0130 16:51:30.886475 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2707566261291503 minutes
+I0130 16:51:30.888144 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:30.888353 139741307064320 postprocess_variants.py:1330] Processed 146725 variants.
+I0130 16:51:30.888974 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2707986036936443 minutes
+I0130 16:51:31.252634 139741307064320 postprocess_variants.py:1311] Processing region 15:99296838-16:33098946
+I0130 16:51:31.257128 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2749112645785015 minutes
+I0130 16:51:31.259357 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:31.259768 139741307064320 postprocess_variants.py:1330] Processed 177377 variants.
+I0130 16:51:31.260672 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2749706665674845 minutes
+I0130 16:51:31.389339 139741307064320 postprocess_variants.py:1311] Processing region 11:33098946-11:66197892
+I0130 16:51:31.393611 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.278177829583486 minutes
+I0130 16:51:31.395789 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:31.396261 139741307064320 postprocess_variants.py:1330] Processed 120272 variants.
+I0130 16:51:31.397074 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.278235876560211 minutes
+I0130 16:51:31.398904 139741307064320 postprocess_variants.py:1311] Processing region 13:66197892-13:99296838
+I0130 16:51:31.399862 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2774516304334005 minutes
+I0130 16:51:31.401674 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:31.401867 139741307064320 postprocess_variants.py:1330] Processed 102285 variants.
+I0130 16:51:31.402376 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.277493909994761 minutes
+I0130 16:51:31.984096 139741307064320 postprocess_variants.py:1311] Processing region 7:99296838-7:135012528
+I0130 16:51:31.987520 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2889605681101481 minutes
+I0130 16:51:31.989649 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:31.990053 139741307064320 postprocess_variants.py:1330] Processed 178723 variants.
+I0130 16:51:31.990847 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2890163342157999 minutes
+I0130 16:51:32.190768 139741307064320 postprocess_variants.py:1311] Processing region 3:33098946-3:66197892
+I0130 16:51:32.191673 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2925379474957783 minutes
+I0130 16:51:32.193688 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:32.193856 139741307064320 postprocess_variants.py:1330] Processed 129728 variants.
+I0130 16:51:32.194369 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.292583123842875 minutes
+I0130 16:51:32.297027 139741307064320 postprocess_variants.py:1311] Processing region 7:33098946-7:66197892
+I0130 16:51:32.297859 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.294148047765096 minutes
+I0130 16:51:32.299514 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:32.299668 139741307064320 postprocess_variants.py:1330] Processed 104873 variants.
+I0130 16:51:32.300103 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2941857655843099 minutes
+I0130 16:51:32.630064 139741307064320 postprocess_variants.py:1311] Processing region X:0-X:33098946
+I0130 16:51:32.631010 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.2964724580446878 minutes
+I0130 16:51:32.632635 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:32.632847 139741307064320 postprocess_variants.py:1330] Processed 92918 variants.
+I0130 16:51:32.633707 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.2965176979700723 minutes
+I0130 16:51:32.670460 139741307064320 postprocess_variants.py:1311] Processing region 6:132395784-7:33098946
+I0130 16:51:32.671408 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3003747502962748 minutes
+I0130 16:51:32.673176 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:32.673376 139741307064320 postprocess_variants.py:1330] Processed 211867 variants.
+I0130 16:51:32.673940 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3004173239072163 minutes
+I0130 16:51:33.039547 139741307064320 postprocess_variants.py:1311] Processing region 6:66197892-6:99296838
+I0130 16:51:33.043416 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.306599199771881 minutes
+I0130 16:51:33.045745 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:33.046194 139741307064320 postprocess_variants.py:1330] Processed 150580 variants.
+I0130 16:51:33.047080 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3066606680552164 minutes
+I0130 16:51:33.063277 139741307064320 postprocess_variants.py:1311] Processing region 14:66197892-14:99296838
+I0130 16:51:33.064229 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.305121624469757 minutes
+I0130 16:51:33.065866 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:33.066081 139741307064320 postprocess_variants.py:1330] Processed 111863 variants.
+I0130 16:51:33.066653 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3051623106002808 minutes
+I0130 16:51:33.576064 139741307064320 postprocess_variants.py:1311] Processing region 15:66197892-15:99296838
+I0130 16:51:33.576985 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3135682423909505 minutes
+I0130 16:51:33.578655 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:33.578821 139741307064320 postprocess_variants.py:1330] Processed 141965 variants.
+I0130 16:51:33.579342 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.313607935110728 minutes
+I0130 16:51:34.197866 139741307064320 postprocess_variants.py:1311] Processing region 17:66197892-17:86533673
+I0130 16:51:34.198908 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3236694494883219 minutes
+I0130 16:51:34.200580 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:34.200772 139741307064320 postprocess_variants.py:1330] Processed 102733 variants.
+I0130 16:51:34.201655 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3237155477205913 minutes
+I0130 16:51:34.396768 139741307064320 postprocess_variants.py:1311] Processing region 2:132395784-2:165494730
+I0130 16:51:34.397728 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3293232878049215 minutes
+I0130 16:51:34.399421 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:34.399648 139741307064320 postprocess_variants.py:1330] Processed 168681 variants.
+I0130 16:51:34.400667 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.32937247355779 minutes
+I0130 16:51:34.578531 139741307064320 postprocess_variants.py:1311] Processing region 11:66197892-11:86241447
+I0130 16:51:34.579482 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3311502814292908 minutes
+I0130 16:51:34.581164 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:34.581348 139741307064320 postprocess_variants.py:1330] Processed 66704 variants.
+I0130 16:51:34.581907 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3311910351117453 minutes
+I0130 16:51:35.113781 139741307064320 postprocess_variants.py:1311] Processing region 2:165494730-2:198593676
+I0130 16:51:35.117005 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.341306213537852 minutes
+I0130 16:51:35.119237 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:35.119600 139741307064320 postprocess_variants.py:1330] Processed 190748 variants.
+I0130 16:51:35.122104 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3413914998372396 minutes
+I0130 16:51:35.415375 139741307064320 postprocess_variants.py:1311] Processing region 2:99296838-2:132395784
+I0130 16:51:35.418313 139741307064320 postprocess_variants.py:1311] Processing region 1:0-1:33098946
+I0130 16:51:35.432154 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3465672612190247 minutes
+I0130 16:51:35.432146 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3466180284818015 minutes
+I0130 16:51:35.433775 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:35.433784 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:35.433917 139741307064320 postprocess_variants.py:1330] Processed 133855 variants.
+I0130 16:51:35.434378 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3466558416684469 minutes
+I0130 16:51:35.433928 139741307064320 postprocess_variants.py:1330] Processed 125977 variants.
+I0130 16:51:35.434795 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3466118454933167 minutes
+I0130 16:51:35.444259 139741307064320 postprocess_variants.py:1311] Processing region 4:33098946-4:66197892
+I0130 16:51:35.447513 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3467655181884766 minutes
+I0130 16:51:35.449619 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:35.449990 139741307064320 postprocess_variants.py:1330] Processed 170331 variants.
+I0130 16:51:35.450568 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3468167463938394 minutes
+I0130 16:51:35.779975 139741307064320 postprocess_variants.py:1311] Processing region 1:33098946-1:66197892
+I0130 16:51:35.783110 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.352467449506124 minutes
+I0130 16:51:35.785357 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:35.785710 139741307064320 postprocess_variants.py:1330] Processed 126777 variants.
+I0130 16:51:35.786628 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3525264104207357 minutes
+I0130 16:51:35.997353 139741307064320 postprocess_variants.py:1311] Processing region 8:0-8:33098946
+I0130 16:51:35.998315 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3557914614677429 minutes
+I0130 16:51:35.999947 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.000170 139741307064320 postprocess_variants.py:1330] Processed 132483 variants.
+I0130 16:51:36.000771 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3558327992757162 minutes
+I0130 16:51:36.132014 139741307064320 postprocess_variants.py:1311] Processing region 4:0-4:33098946
+I0130 16:51:36.135261 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3582282384236655 minutes
+I0130 16:51:36.137546 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.137911 139741307064320 postprocess_variants.py:1330] Processed 148426 variants.
+I0130 16:51:36.138602 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3582843542099 minutes
+I0130 16:51:36.370698 139741307064320 postprocess_variants.py:1311] Processing region 5:66197892-5:99296838
+I0130 16:51:36.374598 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3621501922607422 minutes
+I0130 16:51:36.377114 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.377563 139741307064320 postprocess_variants.py:1330] Processed 170110 variants.
+I0130 16:51:36.378285 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3622121532758078 minutes
+I0130 16:51:36.774260 139741307064320 postprocess_variants.py:1311] Processing region 6:0-6:33098946
+I0130 16:51:36.775089 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3688000043233235 minutes
+I0130 16:51:36.776773 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.776924 139741307064320 postprocess_variants.py:1330] Processed 128441 variants.
+I0130 16:51:36.777366 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.368838334083557 minutes
+I0130 16:51:36.820008 139741307064320 postprocess_variants.py:1311] Processing region 16:66197892-16:84729064
+I0130 16:51:36.821082 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3673975706100463 minutes
+I0130 16:51:36.822783 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.822996 139741307064320 postprocess_variants.py:1330] Processed 62757 variants.
+I0130 16:51:36.823568 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.367439293861389 minutes
+I0130 16:51:36.859637 139741307064320 postprocess_variants.py:1311] Processing region 16:33098946-16:66197892
+I0130 16:51:36.860357 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.368286383152008 minutes
+I0130 16:51:36.861518 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.861644 139741307064320 postprocess_variants.py:1330] Processed 112059 variants.
+I0130 16:51:36.861962 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3683134277661642 minutes
+I0130 16:51:36.892899 139741307064320 postprocess_variants.py:1311] Processing region 20:33098946-20:54435887
+I0130 16:51:36.893959 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3675873041152955 minutes
+I0130 16:51:36.895689 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.895915 139741307064320 postprocess_variants.py:1330] Processed 108075 variants.
+I0130 16:51:36.896853 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3676358699798583 minutes
+I0130 16:51:36.919528 139741307064320 postprocess_variants.py:1311] Processing region 14:99296838-15:33098946
+I0130 16:51:36.921910 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.369392204284668 minutes
+I0130 16:51:36.924086 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.924467 139741307064320 postprocess_variants.py:1330] Processed 206391 variants.
+I0130 16:51:36.925168 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.369447076320648 minutes
+I0130 16:51:36.926939 139741307064320 postprocess_variants.py:1311] Processing region 17:0-17:33098946
+I0130 16:51:36.928025 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.369172469774882 minutes
+I0130 16:51:36.929771 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:36.929922 139741307064320 postprocess_variants.py:1330] Processed 158424 variants.
+I0130 16:51:36.930464 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3692134698232015 minutes
+I0130 16:51:37.148050 139741307064320 postprocess_variants.py:1311] Processing region 18:66197892-18:83828827
+I0130 16:51:37.148672 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3726374705632527 minutes
+I0130 16:51:37.149817 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:37.149917 139741307064320 postprocess_variants.py:1330] Processed 64033 variants.
+I0130 16:51:37.150462 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.372667634487152 minutes
+I0130 16:51:37.167048 139741307064320 postprocess_variants.py:1311] Processing region 9:33098946-9:66197892
+I0130 16:51:37.170788 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3752989689509074 minutes
+I0130 16:51:37.173276 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:37.173687 139741307064320 postprocess_variants.py:1330] Processed 123320 variants.
+I0130 16:51:37.174403 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3753596345583599 minutes
+I0130 16:51:37.359023 139741307064320 postprocess_variants.py:1311] Processing region 15:33098946-15:66197892
+I0130 16:51:37.363737 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3767362316449483 minutes
+I0130 16:51:37.366254 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:37.366729 139741307064320 postprocess_variants.py:1330] Processed 54715 variants.
+I0130 16:51:37.367501 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.376799507935842 minutes
+I0130 16:51:37.423396 139741307064320 postprocess_variants.py:1311] Processing region 17:33098946-17:66197892
+I0130 16:51:37.424454 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.377436621983846 minutes
+I0130 16:51:37.426143 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:37.426340 139741307064320 postprocess_variants.py:1330] Processed 145562 variants.
+I0130 16:51:37.427267 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3774837851524353 minutes
+I0130 16:51:37.740685 139741307064320 postprocess_variants.py:1311] Processing region 8:33098946-8:66197892
+I0130 16:51:37.744669 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.384896699587504 minutes
+I0130 16:51:37.747158 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:37.747642 139741307064320 postprocess_variants.py:1330] Processed 150374 variants.
+I0130 16:51:37.748361 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3849587122599283 minutes
+I0130 16:51:37.899184 139741307064320 postprocess_variants.py:1311] Processing region 4:99296838-4:132395784
+I0130 16:51:37.902770 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3876723249753316 minutes
+I0130 16:51:37.905176 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:37.905543 139741307064320 postprocess_variants.py:1330] Processed 119934 variants.
+I0130 16:51:37.906280 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3877312938372295 minutes
+I0130 16:51:37.906949 139741307064320 postprocess_variants.py:1311] Processing region X:99296838-X:132395784
+I0130 16:51:37.912032 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3838874141375224 minutes
+I0130 16:51:37.916752 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:37.917257 139741307064320 postprocess_variants.py:1330] Processed 97263 variants.
+I0130 16:51:37.918325 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3839929302533467 minutes
+I0130 16:51:37.987854 139741307064320 postprocess_variants.py:1311] Processing region 5:33098946-5:66197892
+I0130 16:51:37.991937 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3891130169232686 minutes
+I0130 16:51:37.994451 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:37.994897 139741307064320 postprocess_variants.py:1330] Processed 174678 variants.
+I0130 16:51:37.995709 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3891766826311747 minutes
+I0130 16:51:38.120229 139741307064320 postprocess_variants.py:1311] Processing region 18:0-18:33098946
+I0130 16:51:38.124962 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3889723499615987 minutes
+I0130 16:51:38.127492 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:38.128005 139741307064320 postprocess_variants.py:1330] Processed 138549 variants.
+I0130 16:51:38.130962 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3890728950500488 minutes
+I0130 16:51:38.149697 139741307064320 postprocess_variants.py:1311] Processing region 6:33098946-6:66197892
+I0130 16:51:38.153117 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.3917691151301066 minutes
+I0130 16:51:38.155364 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:38.155731 139741307064320 postprocess_variants.py:1330] Processed 150445 variants.
+I0130 16:51:38.156385 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3918241262435913 minutes
+I0130 16:51:38.350229 139741307064320 postprocess_variants.py:1311] Processing region 1:165494730-1:198593676
+I0130 16:51:38.351169 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.395242941379547 minutes
+I0130 16:51:38.352841 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:38.353056 139741307064320 postprocess_variants.py:1330] Processed 148866 variants.
+I0130 16:51:38.353948 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.3952894449234008 minutes
+I0130 16:51:38.926422 139741307064320 postprocess_variants.py:1311] Processing region 19:33098946-19:57337602
+I0130 16:51:38.931098 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4019412716229758 minutes
+I0130 16:51:38.933818 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:38.934288 139741307064320 postprocess_variants.py:1330] Processed 88690 variants.
+I0130 16:51:38.936866 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4020378708839416 minutes
+I0130 16:51:38.973662 139741307064320 postprocess_variants.py:1311] Processing region 11:0-11:33098946
+I0130 16:51:38.977430 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4048421184221904 minutes
+I0130 16:51:38.979572 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:38.979762 139741307064320 postprocess_variants.py:1330] Processed 152463 variants.
+I0130 16:51:38.980299 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.404890513420105 minutes
+I0130 16:51:39.076432 139741307064320 postprocess_variants.py:1311] Processing region 14:33098946-14:66197892
+I0130 16:51:39.081068 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4054248929023743 minutes
+I0130 16:51:39.083715 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.084244 139741307064320 postprocess_variants.py:1330] Processed 144271 variants.
+I0130 16:51:39.085154 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4054934859275818 minutes
+I0130 16:51:39.116770 139741307064320 postprocess_variants.py:1311] Processing region 5:0-5:33098946
+I0130 16:51:39.117630 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4078845461209615 minutes
+I0130 16:51:39.119186 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.119375 139741307064320 postprocess_variants.py:1330] Processed 154054 variants.
+I0130 16:51:39.119874 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4079223116238913 minutes
+I0130 16:51:39.122515 139741307064320 postprocess_variants.py:1311] Processing region 5:132395784-5:166875058
+I0130 16:51:39.125966 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4079905867576599 minutes
+I0130 16:51:39.128236 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.128620 139741307064320 postprocess_variants.py:1330] Processed 130067 variants.
+I0130 16:51:39.129236 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.408045729001363 minutes
+I0130 16:51:39.250556 139741307064320 postprocess_variants.py:1311] Processing region 10:33098946-10:66197892
+I0130 16:51:39.254105 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.409510370095571 minutes
+I0130 16:51:39.256408 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.256723 139741307064320 postprocess_variants.py:1330] Processed 144926 variants.
+I0130 16:51:39.257264 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4095638116200766 minutes
+I0130 16:51:39.338456 139741307064320 postprocess_variants.py:1311] Processing region 3:99296838-3:132395784
+I0130 16:51:39.339241 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4116559823354085 minutes
+I0130 16:51:39.341168 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.341323 139741307064320 postprocess_variants.py:1330] Processed 156997 variants.
+I0130 16:51:39.341794 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4116987943649293 minutes
+I0130 16:51:39.391469 139741307064320 postprocess_variants.py:1311] Processing region X:66197892-X:99296838
+I0130 16:51:39.396306 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4088942885398865 minutes
+I0130 16:51:39.400790 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.401296 139741307064320 postprocess_variants.py:1330] Processed 89057 variants.
+I0130 16:51:39.402048 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4089905103047689 minutes
+I0130 16:51:39.428777 139741307064320 postprocess_variants.py:1311] Processing region 3:66197892-3:99296838
+I0130 16:51:39.429491 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4131644209225973 minutes
+I0130 16:51:39.431661 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.431930 139741307064320 postprocess_variants.py:1330] Processed 150676 variants.
+I0130 16:51:39.432505 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4132147709528604 minutes
+I0130 16:51:39.472884 139741307064320 postprocess_variants.py:1311] Processing region 3:0-3:33098946
+I0130 16:51:39.473738 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4139096856117248 minutes
+I0130 16:51:39.475382 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.475484 139741307064320 postprocess_variants.py:1330] Processed 191260 variants.
+I0130 16:51:39.475813 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.413944657643636 minutes
+I0130 16:51:39.692721 139741307064320 postprocess_variants.py:1311] Processing region 8:66197892-8:99296838
+I0130 16:51:39.699692 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4174573024113972 minutes
+I0130 16:51:39.702131 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.702578 139741307064320 postprocess_variants.py:1330] Processed 156226 variants.
+I0130 16:51:39.703449 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4175204753875732 minutes
+I0130 16:51:39.992933 139741307064320 postprocess_variants.py:1311] Processing region 1:231692622-1:260522016
+I0130 16:51:39.993877 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4226134141286215 minutes
+I0130 16:51:39.995573 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:39.995799 139741307064320 postprocess_variants.py:1330] Processed 129158 variants.
+I0130 16:51:39.996802 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4226624011993407 minutes
+I0130 16:51:40.016537 139741307064320 postprocess_variants.py:1311] Processing region 19:0-19:33098946
+I0130 16:51:40.021275 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4205050706863402 minutes
+I0130 16:51:40.023698 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.024198 139741307064320 postprocess_variants.py:1330] Processed 140804 variants.
+I0130 16:51:40.026772 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4205971399943034 minutes
+I0130 16:51:40.153558 139741307064320 postprocess_variants.py:1311] Processing region 1:198593676-1:231692622
+I0130 16:51:40.157220 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.42533651192983 minutes
+I0130 16:51:40.159705 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.160111 139741307064320 postprocess_variants.py:1330] Processed 99223 variants.
+I0130 16:51:40.162692 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4254280885060628 minutes
+I0130 16:51:40.268929 139741307064320 postprocess_variants.py:1311] Processing region 9:0-9:33098946
+I0130 16:51:40.272946 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4270027041435243 minutes
+I0130 16:51:40.275405 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.275866 139741307064320 postprocess_variants.py:1330] Processed 183348 variants.
+I0130 16:51:40.276676 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4270652532577515 minutes
+I0130 16:51:40.636122 139741307064320 postprocess_variants.py:1311] Processing region 1:132395784-1:165494730
+I0130 16:51:40.639542 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4333948055903116 minutes
+I0130 16:51:40.642228 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.642656 139741307064320 postprocess_variants.py:1330] Processed 187472 variants.
+I0130 16:51:40.645221 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4334897955258687 minutes
+I0130 16:51:40.647770 139741307064320 postprocess_variants.py:1311] Processing region 4:132395784-4:182687754
+I0130 16:51:40.648660 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4334189295768738 minutes
+I0130 16:51:40.650382 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.650547 139741307064320 postprocess_variants.py:1330] Processed 254944 variants.
+I0130 16:51:40.651103 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.43345996538798 minutes
+I0130 16:51:40.653559 139741307064320 postprocess_variants.py:1311] Processing region 13:99296838-14:33098946
+I0130 16:51:40.658478 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4317379991213481 minutes
+I0130 16:51:40.661124 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.661578 139741307064320 postprocess_variants.py:1330] Processed 235746 variants.
+I0130 16:51:40.662371 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4318033734957376 minutes
+I0130 16:51:40.714343 139741307064320 postprocess_variants.py:1311] Processing region 12:33098946-13:33098946
+I0130 16:51:40.718741 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4330324570337931 minutes
+I0130 16:51:40.721254 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.721741 139741307064320 postprocess_variants.py:1330] Processed 230713 variants.
+I0130 16:51:40.722537 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.433096210161845 minutes
+I0130 16:51:40.780277 139741307064320 postprocess_variants.py:1311] Processing region 2:33098946-2:66197892
+I0130 16:51:40.783772 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4357693751653036 minutes
+I0130 16:51:40.786733 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.787147 139741307064320 postprocess_variants.py:1330] Processed 170922 variants.
+I0130 16:51:40.789902 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4358718514442443 minutes
+I0130 16:51:40.834531 139741307064320 postprocess_variants.py:1311] Processing region 4:66197892-4:99296838
+I0130 16:51:40.838166 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4365800937016806 minutes
+I0130 16:51:40.840658 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.841070 139741307064320 postprocess_variants.py:1330] Processed 130997 variants.
+I0130 16:51:40.841930 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.436643385887146 minutes
+I0130 16:51:40.942584 139741307064320 postprocess_variants.py:1311] Processing region 10:0-10:33098946
+I0130 16:51:40.946637 139741307064320 postprocess_variants.py:1311] Processing region 1:66197892-1:99296838
+I0130 16:51:40.946417 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4379953742027283 minutes
+I0130 16:51:40.948702 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.947600 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4385400533676147 minutes
+I0130 16:51:40.949291 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:40.949151 139741307064320 postprocess_variants.py:1330] Processed 152014 variants.
+I0130 16:51:40.949506 139741307064320 postprocess_variants.py:1330] Processed 127186 variants.
+I0130 16:51:40.949881 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4380534291267395 minutes
+I0130 16:51:40.950072 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4385815024375916 minutes
+I0130 16:51:41.569095 139741307064320 postprocess_variants.py:1311] Processing region MT:0-JACYVU010000703.1:746
+I0130 16:51:41.574159 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4445793469746908 minutes
+I0130 16:51:41.577494 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:41.578078 139741307064320 postprocess_variants.py:1330] Processed 357108 variants.
+I0130 16:51:41.579284 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4446649551391602 minutes
+I0130 16:51:41.843115 139741307064320 postprocess_variants.py:1311] Processing region 20:0-20:33098946
+I0130 16:51:41.843937 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4503225604693095 minutes
+I0130 16:51:41.845528 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:41.845692 139741307064320 postprocess_variants.py:1330] Processed 179670 variants.
+I0130 16:51:41.846502 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4503652731577554 minutes
+I0130 16:51:41.917829 139741307064320 postprocess_variants.py:1311] Processing region 2:66197892-2:99296838
+I0130 16:51:41.921252 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4547229448954264 minutes
+I0130 16:51:41.923515 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:41.923932 139741307064320 postprocess_variants.py:1330] Processed 224959 variants.
+I0130 16:51:41.926527 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4548110802968344 minutes
+I0130 16:51:43.217189 139741307064320 postprocess_variants.py:1311] Processing region X:132395784-Y:18315841
+I0130 16:51:43.218225 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.472257963816325 minutes
+I0130 16:51:43.220202 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:43.220421 139741307064320 postprocess_variants.py:1330] Processed 366294 variants.
+I0130 16:51:43.221010 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4723047097524007 minutes
+I0130 16:51:43.275135 139741307064320 postprocess_variants.py:1311] Processing region 2:198593676-2:249053267
+I0130 16:51:43.278561 139741307064320 postprocess_variants.py:1318] CVO sorting took 1.4773278037707012 minutes
+I0130 16:51:43.282597 139741307064320 postprocess_variants.py:1322] Transforming call_variants_output to variants.
+I0130 16:51:43.282977 139741307064320 postprocess_variants.py:1330] Processed 276803 variants.
+I0130 16:51:43.283733 139741307064320 postprocess_variants.py:1533] Processing variants (and writing to temporary files) took 1.4774142344792685 minutes
+I0130 16:56:09.821169 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.627102510134379 minutes.
+I0130 16:56:13.587409 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.629989969730377 minutes.
+I0130 16:56:16.740311 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.770110142230988 minutes.
+I0130 16:56:20.433012 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.7177476247151695 minutes.
+I0130 16:56:20.655169 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.6920888185501095 minutes.
+I0130 16:56:21.686635 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.7259165167808534 minutes.
+I0130 16:56:23.343487 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.71966909567515 minutes.
+I0130 16:56:23.652476 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.959589763482412 minutes.
+I0130 16:56:24.106907 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.721072820822398 minutes.
+I0130 16:56:26.058129 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.919474796454112 minutes.
+I0130 16:56:28.721921 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.859508681297302 minutes.
+I0130 16:56:28.799992 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.802566512425741 minutes.
+I0130 16:56:31.116332 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.87936616341273 minutes.
+I0130 16:56:31.697639 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.91276737054189 minutes.
+I0130 16:56:31.913036 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.849376797676086 minutes.
+I0130 16:56:33.244568 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.940343749523163 minutes.
+I0130 16:56:34.042346 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.118749781449636 minutes.
+I0130 16:56:34.478631 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.051347068945566 minutes.
+I0130 16:56:34.693446 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.0018499533335365 minutes.
+I0130 16:56:37.357965 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 4.993487175305685 minutes.
+I0130 16:56:38.293592 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.094323150316874 minutes.
+I0130 16:56:40.464677 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.072088921070099 minutes.
+I0130 16:56:40.596721 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.085757569471995 minutes.
+I0130 16:56:41.331036 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.056863474845886 minutes.
+I0130 16:56:41.439845 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.232012073198955 minutes.
+I0130 16:56:43.074254 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.194521435101827 minutes.
+I0130 16:56:43.925671 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.141500878334045 minutes.
+I0130 16:56:44.685361 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.193635884920756 minutes.
+I0130 16:56:46.540568 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.317631928126017 minutes.
+I0130 16:56:46.725757 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.163338760534923 minutes.
+I0130 16:56:49.172516 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.350398580233256 minutes.
+I0130 16:56:50.572996 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.187182037035624 minutes.
+I0130 16:56:51.369123 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.241194740931193 minutes.
+I0130 16:56:52.058338 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.248054532210032 minutes.
+I0130 16:56:53.630326 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.1963909069697065 minutes.
+I0130 16:56:55.088981 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.261440511544546 minutes.
+I0130 16:56:56.008188 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.327147320906321 minutes.
+I0130 16:56:56.190019 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.287539247671763 minutes.
+I0130 16:56:56.685913 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.4570385654767355 minutes.
+I0130 16:56:57.269093 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.45689879655838 minutes.
+I0130 16:56:57.433084 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.387180705865224 minutes.
+I0130 16:56:57.685206 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.370831163724263 minutes.
+I0130 16:56:57.981545 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.35198355515798 minutes.
+I0130 16:56:58.969471 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.359020976225535 minutes.
+I0130 16:56:58.973646 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.432091641426086 minutes.
+I0130 16:56:59.792218 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.36058212518692 minutes.
+I0130 16:57:00.746140 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.474093043804169 minutes.
+I0130 16:57:01.087064 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.519786258538564 minutes.
+I0130 16:57:01.118236 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.3666302482287085 minutes.
+I0130 16:57:02.371390 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.407743684450785 minutes.
+I0130 16:57:02.464025 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.386768364906311 minutes.
+I0130 16:57:02.545874 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.442409749825796 minutes.
+I0130 16:57:03.116082 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.385311444600423 minutes.
+I0130 16:57:04.150087 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.548139146963755 minutes.
+I0130 16:57:05.468208 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.4240155975023905 minutes.
+I0130 16:57:06.664637 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.671232732137044 minutes.
+I0130 16:57:06.691387 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.526147524515788 minutes.
+I0130 16:57:07.434028 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.550546586513519 minutes.
+I0130 16:57:07.861268 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.451174692312876 minutes.
+I0130 16:57:07.910429 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.460556070009868 minutes.
+I0130 16:57:08.038216 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.476027146975199 minutes.
+I0130 16:57:08.371764 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.477796200911204 minutes.
+I0130 16:57:08.554962 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.609394156932831 minutes.
+I0130 16:57:09.232343 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.540907410780589 minutes.
+I0130 16:57:09.943585 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.606062515576681 minutes.
+I0130 16:57:10.030356 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.509955656528473 minutes.
+I0130 16:57:10.063733 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.699160460631052 minutes.
+I0130 16:57:11.324365 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.5373121420542395 minutes.
+I0130 16:57:12.818961 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.5311322967211405 minutes.
+I0130 16:57:14.742204 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.701129480202993 minutes.
+I0130 16:57:15.550262 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.60949418147405 minutes.
+I0130 16:57:16.484588 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.641466609636942 minutes.
+I0130 16:57:17.365736 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.611701913674673 minutes.
+I0130 16:57:21.723155 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.8553780515988665 minutes.
+I0130 16:57:22.317194 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.694427374998728 minutes.
+I0130 16:57:22.458580 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.695591441790262 minutes.
+I0130 16:57:23.355797 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.668906176090241 minutes.
+I0130 16:57:23.980860 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.700888963540395 minutes.
+I0130 16:57:39.378442 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 5.93489982287089 minutes.
+I0130 16:58:07.321412 139741307064320 postprocess_variants.py:1568] VCF and gVCF creation took 6.429015787442525 minutes.
+Checking the headers of 80 files.
+Done, the headers are compatible.
+Checking the headers of 80 files.
+Done, the headers are compatible.
+I0130 16:58:47.002135 139741307064320 postprocess_variants.py:1723] Indexing VCF and gVCF took 0.5980161786079407 minutes.
+
+real	8m37.496s
+user	516m22.976s
+sys	6m1.815s

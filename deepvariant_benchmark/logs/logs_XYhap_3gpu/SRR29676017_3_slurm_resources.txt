@@ -1,0 +1,7 @@
+Starting slurm_deepvariant_germline.sh job execution...
+Tue Jan 21 11:56:38 AM CET 2025
+JobID           JobName      State ExitCode    Elapsed    CPUTime   TotalCPU  ReqCPUS  AllocCPUS     AveRSS     MaxRSS     ReqMem  AveVMSize  MaxVMSize 
+------------ ---------- ---------- -------- ---------- ---------- ---------- -------- ---------- ---------- ---------- ---------- ---------- ---------- 
+20190        parabrick+    RUNNING      0:0   00:45:22 4-00:46:56   00:00:00      128        128                             512G                       
+20190.batch       batch    RUNNING      0:0   00:45:22 4-00:46:56   00:00:00      128        128                                                        
+20190.extern     extern    RUNNING      0:0   00:45:22 4-00:46:56   00:00:00      128        128                                                        

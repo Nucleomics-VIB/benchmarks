@@ -1,0 +1,796 @@
+[PB Info 2025-Jan-21 09:19:23] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 09:19:23] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2025-Jan-21 09:19:23] ||                              Version 4.4.0-1                             ||
+[PB Info 2025-Jan-21 09:19:23] ||                      GPU-PBBWA mem, Sorting Phase-I                      ||
+[PB Info 2025-Jan-21 09:19:23] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 09:19:23] Mode = pair-ended-gpu
+[PB Info 2025-Jan-21 09:19:23] Running with 1 GPU(s), using 4 stream(s) per device with 16 worker threads per GPU
+[PB Info 2025-Jan-21 09:19:33] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2025-Jan-21 09:19:43] #  0  0  0  0  0   0 pool:  0 0 bases/GPU/minute: 0.0 
+[PB Info 2025-Jan-21 09:19:53] # 100  7  1  3  0   0 pool:  2 310933311 bases/GPU/minute: 1865599866.0 
+[PB Info 2025-Jan-21 09:20:03] # 99 13  1  5  0   0 pool:  0 932841139 bases/GPU/minute: 3731446968.0 
+[PB Info 2025-Jan-21 09:20:13] # 100 27  1  4  0   0 pool:  0 1544675818 bases/GPU/minute: 3671008074.0 
+[PB Info 2025-Jan-21 09:20:23] # 100 42  0  3  0   0 pool:  2 2136560042 bases/GPU/minute: 3551305344.0 
+[PB Info 2025-Jan-21 09:20:33] # 100 51  2  4  0   0 pool:  1 2718735845 bases/GPU/minute: 3493054818.0 
+[PB Info 2025-Jan-21 09:20:43] # 100 64  1  4  0   0 pool:  0 3290740988 bases/GPU/minute: 3432030858.0 
+[PB Info 2025-Jan-21 09:20:53] # 100 81  3  3  0   0 pool:  1 3912237008 bases/GPU/minute: 3728976120.0 
+[PB Info 2025-Jan-21 09:21:03] # 100 98  1  3  0   0 pool:  0 4523929773 bases/GPU/minute: 3670156590.0 
+[PB Info 2025-Jan-21 09:21:13] # 100 101  1  4  0   0 pool:  1 5125745164 bases/GPU/minute: 3610892346.0 
+[PB Info 2025-Jan-21 09:21:23] # 100 101  1  3  0   0 pool:  2 5717643001 bases/GPU/minute: 3551387022.0 
+[PB Info 2025-Jan-21 09:21:33] # 100 100  2  4  0   0 pool:  1 6299611502 bases/GPU/minute: 3491811006.0 
+[PB Info 2025-Jan-21 09:21:43] # 99 101  1  5  0   0 pool:  1 6911240733 bases/GPU/minute: 3669775386.0 
+[PB Info 2025-Jan-21 09:21:53] # 100 100  2  4  0   0 pool:  1 7483231881 bases/GPU/minute: 3431946888.0 
+[PB Info 2025-Jan-21 09:22:03] # 100 101  0  4  0   0 pool:  2 8074903349 bases/GPU/minute: 3550028808.0 
+[PB Info 2025-Jan-21 09:22:13] # 100 101  1  3  0   0 pool:  2 8656917423 bases/GPU/minute: 3492084444.0 
+[PB Info 2025-Jan-21 09:22:23] # 100 100  1  5  0   0 pool:  1 9219015715 bases/GPU/minute: 3372589752.0 
+[PB Info 2025-Jan-21 09:22:33] # 100 100  1  5  0   0 pool:  1 9800789002 bases/GPU/minute: 3490639722.0 
+[PB Info 2025-Jan-21 09:22:43] # 100 100  2  4  0   0 pool:  1 10402409966 bases/GPU/minute: 3609725784.0 
+[PB Info 2025-Jan-21 09:22:53] # 100 101  1  3  0   0 pool:  2 11004186587 bases/GPU/minute: 3610659726.0 
+[PB Info 2025-Jan-21 09:23:03] # 100 101  1  4  0   0 pool:  1 11595912417 bases/GPU/minute: 3550354980.0 
+[PB Info 2025-Jan-21 09:23:13] # 100 100  2  4  0   0 pool:  1 12187722123 bases/GPU/minute: 3550858236.0 
+[PB Info 2025-Jan-21 09:23:23] # 100 100  2  4  0   0 pool:  1 12769631975 bases/GPU/minute: 3491459112.0 
+[PB Info 2025-Jan-21 09:23:33] # 100 101  3  3  0   0 pool:  1 13351237574 bases/GPU/minute: 3489633594.0 
+[PB Info 2025-Jan-21 09:23:43] # 100 100  3  3  0   0 pool:  2 13923162466 bases/GPU/minute: 3431549352.0 
+[PB Info 2025-Jan-21 09:23:53] # 100 100  4  2  0   0 pool:  2 14504853203 bases/GPU/minute: 3490144422.0 
+[PB Info 2025-Jan-21 09:24:03] # 100 100  4  2  0   0 pool:  2 15096556493 bases/GPU/minute: 3550219740.0 
+[PB Info 2025-Jan-21 09:24:13] # 100 100  3  3  0   0 pool:  2 15658463026 bases/GPU/minute: 3371439198.0 
+[PB Info 2025-Jan-21 09:24:23] # 100 100  3  3  0   0 pool:  2 16250033063 bases/GPU/minute: 3549420222.0 
+[PB Info 2025-Jan-21 09:24:33] # 100 103  1  1  0   0 pool:  3 16821738028 bases/GPU/minute: 3430229790.0 
+[PB Info 2025-Jan-21 09:24:43] # 100 101  2  2  0   0 pool:  3 17393740876 bases/GPU/minute: 3432017088.0 
+[PB Info 2025-Jan-21 09:24:53] # 100 100  4  2  0   0 pool:  2 17985196362 bases/GPU/minute: 3548732916.0 
+[PB Info 2025-Jan-21 09:25:03] # 100 101  3  1  0   0 pool:  3 18576924181 bases/GPU/minute: 3550366914.0 
+[PB Info 2025-Jan-21 09:25:13] # 100 100  4  2  0   0 pool:  2 19168595072 bases/GPU/minute: 3550025346.0 
+[PB Info 2025-Jan-21 09:25:23] # 100 100  4  2  0   0 pool:  2 19740409687 bases/GPU/minute: 3430887690.0 
+[PB Info 2025-Jan-21 09:25:33] # 100 101  3  1  0   0 pool:  3 20332162310 bases/GPU/minute: 3550515738.0 
+[PB Info 2025-Jan-21 09:25:43] # 100 102  1  2  0   0 pool:  3 20913972552 bases/GPU/minute: 3490861452.0 
+[PB Info 2025-Jan-21 09:25:53] # 100 100  4  2  0   0 pool:  2 21485799523 bases/GPU/minute: 3430961826.0 
+[PB Info 2025-Jan-21 09:26:03] # 100 100  4  2  0   0 pool:  2 22077419475 bases/GPU/minute: 3549719712.0 
+[PB Info 2025-Jan-21 09:26:13] # 100 101  3  3  0   0 pool:  1 22659032901 bases/GPU/minute: 3489680556.0 
+[PB Info 2025-Jan-21 09:26:23] # 100 101  3  1  0   0 pool:  3 23240820394 bases/GPU/minute: 3490724958.0 
+[PB Info 2025-Jan-21 09:26:33] # 100 101  2  2  0   0 pool:  3 23822599326 bases/GPU/minute: 3490673592.0 
+[PB Info 2025-Jan-21 09:26:43] # 100 100  4  2  0   0 pool:  2 24384393150 bases/GPU/minute: 3370762944.0 
+[PB Info 2025-Jan-21 09:26:53] # 100 101  2  2  0   0 pool:  3 24956149239 bases/GPU/minute: 3430536534.0 
+[PB Info 2025-Jan-21 09:27:03] # 100 100  4  2  0   0 pool:  2 25518029973 bases/GPU/minute: 3371284404.0 
+[PB Info 2025-Jan-21 09:27:13] # 100 101  3  3  0   0 pool:  2 26099710909 bases/GPU/minute: 3490085616.0 
+[PB Info 2025-Jan-21 09:27:23] # 100 101  3  1  0   0 pool:  3 26681528823 bases/GPU/minute: 3490907484.0 
+[PB Info 2025-Jan-21 09:27:33] # 100 102  2  1  0   0 pool:  3 27253431189 bases/GPU/minute: 3431414196.0 
+[PB Info 2025-Jan-21 09:27:43] # 100 101  3  3  0   0 pool:  2 27835055706 bases/GPU/minute: 3489747102.0 
+[PB Info 2025-Jan-21 09:27:53] # 100 101  3  1  0   0 pool:  3 28396979268 bases/GPU/minute: 3371541372.0 
+[PB Info 2025-Jan-21 09:28:03] # 100 100  4  2  0   0 pool:  2 28988520043 bases/GPU/minute: 3549244650.0 
+[PB Info 2025-Jan-21 09:28:13] # 100 101  3  1  0   0 pool:  3 29540521613 bases/GPU/minute: 3312009420.0 
+[PB Info 2025-Jan-21 09:28:23] # 100 101  3  1  0   0 pool:  3 30132142119 bases/GPU/minute: 3549723036.0 
+[PB Info 2025-Jan-21 09:28:33] # 100 100  4  2  0   0 pool:  2 30713740386 bases/GPU/minute: 3489589602.0 
+[PB Info 2025-Jan-21 09:28:43] # 100 101  3  1  0   0 pool:  3 31285482137 bases/GPU/minute: 3430450506.0 
+[PB Info 2025-Jan-21 09:28:53] # 100 100  4  2  0   0 pool:  2 31857248533 bases/GPU/minute: 3430598376.0 
+[PB Info 2025-Jan-21 09:29:03] # 100 100  3  3  0   0 pool:  2 32429081067 bases/GPU/minute: 3430995204.0 
+[PB Info 2025-Jan-21 09:29:13] # 100 101  3  1  0   0 pool:  3 33000792557 bases/GPU/minute: 3430268940.0 
+[PB Info 2025-Jan-21 09:29:23] # 100 101  2  2  0   0 pool:  3 33582579140 bases/GPU/minute: 3490719498.0 
+[PB Info 2025-Jan-21 09:29:33] # 100 100  4  2  0   0 pool:  2 34154314982 bases/GPU/minute: 3430415052.0 
+[PB Info 2025-Jan-21 09:29:43] # 100 101  3  3  0   0 pool:  1 34726040424 bases/GPU/minute: 3430352652.0 
+[PB Info 2025-Jan-21 09:29:53] # 100 100  3  3  0   0 pool:  2 35307786117 bases/GPU/minute: 3490474158.0 
+[PB Info 2025-Jan-21 09:30:03] # 100 103  1  1  0   0 pool:  3 35869667725 bases/GPU/minute: 3371289648.0 
+[PB Info 2025-Jan-21 09:30:13] # 100 102  2  4  0   0 pool:  0 36461197963 bases/GPU/minute: 3549181428.0 
+[PB Info 2025-Jan-21 09:30:23] # 100 101  3  3  0   0 pool:  1 37033049758 bases/GPU/minute: 3431110770.0 
+[PB Info 2025-Jan-21 09:30:33] # 100 102  2  4  0   0 pool:  0 37604768021 bases/GPU/minute: 3430309578.0 
+[PB Info 2025-Jan-21 09:30:43] # 100 100  4  2  0   0 pool:  2 38186480265 bases/GPU/minute: 3490273464.0 
+[PB Info 2025-Jan-21 09:30:53] # 100 100  4  2  0   0 pool:  2 38748277181 bases/GPU/minute: 3370781496.0 
+[PB Info 2025-Jan-21 09:31:03] # 100 100  4  2  0   0 pool:  2 39320106051 bases/GPU/minute: 3430973220.0 
+[PB Info 2025-Jan-21 09:31:13] # 100 101  3  1  0   0 pool:  3 39911619133 bases/GPU/minute: 3549078492.0 
+[PB Info 2025-Jan-21 09:31:23] # 100 101  2  2  0   0 pool:  3 40483377619 bases/GPU/minute: 3430550916.0 
+[PB Info 2025-Jan-21 09:31:33] # 100 100  4  2  0   0 pool:  2 41065091248 bases/GPU/minute: 3490281774.0 
+[PB Info 2025-Jan-21 09:31:43] # 100 101  3  1  0   0 pool:  3 41626865399 bases/GPU/minute: 3370644906.0 
+[PB Info 2025-Jan-21 09:31:53] # 100 100  4  2  0   0 pool:  2 42208478317 bases/GPU/minute: 3489677508.0 
+[PB Info 2025-Jan-21 09:32:03] # 100 100  4  2  0   0 pool:  2 42780266769 bases/GPU/minute: 3430730712.0 
+[PB Info 2025-Jan-21 09:32:13] # 100 101  3  1  0   0 pool:  3 43351900688 bases/GPU/minute: 3429803514.0 
+[PB Info 2025-Jan-21 09:32:23] # 100 101  2  2  0   0 pool:  3 43933587002 bases/GPU/minute: 3490117884.0 
+[PB Info 2025-Jan-21 09:32:33] # 100 100  4  2  0   0 pool:  2 44495383080 bases/GPU/minute: 3370776468.0 
+[PB Info 2025-Jan-21 09:32:43] # 100 101  3  3  0   0 pool:  1 45076923177 bases/GPU/minute: 3489240582.0 
+[PB Info 2025-Jan-21 09:32:53] # 100 101  2  2  0   0 pool:  3 45658575175 bases/GPU/minute: 3489911988.0 
+[PB Info 2025-Jan-21 09:33:03] # 100 100  3  3  0   0 pool:  2 46220313981 bases/GPU/minute: 3370432836.0 
+[PB Info 2025-Jan-21 09:33:13] # 100 101  3  1  0   0 pool:  3 46801900636 bases/GPU/minute: 3489519930.0 
+[PB Info 2025-Jan-21 09:33:23] # 100 100  4  2  0   0 pool:  2 47373577307 bases/GPU/minute: 3430060026.0 
+[PB Info 2025-Jan-21 09:33:33] # 100 101  3  3  0   0 pool:  1 47955134870 bases/GPU/minute: 3489345378.0 
+[PB Info 2025-Jan-21 09:33:43] # 100 101  2  2  0   0 pool:  3 48526997558 bases/GPU/minute: 3431176128.0 
+[PB Info 2025-Jan-21 09:33:53] # 100 103  1  1  0   0 pool:  3 49098676648 bases/GPU/minute: 3430074540.0 
+[PB Info 2025-Jan-21 09:34:03] # 100 101  3  1  0   0 pool:  3 49670330623 bases/GPU/minute: 3429923850.0 
+[PB Info 2025-Jan-21 09:34:13] # 100 100  4  2  0   0 pool:  2 50241989338 bases/GPU/minute: 3429952290.0 
+[PB Info 2025-Jan-21 09:34:23] # 100 101  3  1  0   0 pool:  3 50823598754 bases/GPU/minute: 3489656496.0 
+[PB Info 2025-Jan-21 09:34:33] # 100 101  2  2  0   0 pool:  3 51385559989 bases/GPU/minute: 3371767410.0 
+[PB Info 2025-Jan-21 09:34:43] # 100 100  4  2  0   0 pool:  2 51967152144 bases/GPU/minute: 3489552930.0 
+[PB Info 2025-Jan-21 09:34:53] # 100 100  3  3  0   0 pool:  2 52548885363 bases/GPU/minute: 3490399314.0 
+[PB Info 2025-Jan-21 09:35:03] # 100 103  1  1  0   0 pool:  3 53120698885 bases/GPU/minute: 3430881132.0 
+[PB Info 2025-Jan-21 09:35:13] # 100 101  2  4  0   0 pool:  1 53702434557 bases/GPU/minute: 3490414032.0 
+[PB Info 2025-Jan-21 09:35:23] # 100 103  0  2  0   0 pool:  3 54274158644 bases/GPU/minute: 3430344522.0 
+[PB Info 2025-Jan-21 09:35:33] # 100 102  2  4  0   0 pool:  0 54855977263 bases/GPU/minute: 3490911714.0 
+[PB Info 2025-Jan-21 09:35:43] # 100 100  4  2  0   0 pool:  2 55437802690 bases/GPU/minute: 3490952562.0 
+[PB Info 2025-Jan-21 09:35:53] # 100 102  2  4  0   0 pool:  0 56009652324 bases/GPU/minute: 3431097804.0 
+[PB Info 2025-Jan-21 09:36:03] # 100 100  4  2  0   0 pool:  2 56611229217 bases/GPU/minute: 3609461358.0 
+[PB Info 2025-Jan-21 09:36:13] # 100 102  2  4  0   0 pool:  0 57183181127 bases/GPU/minute: 3431711460.0 
+[PB Info 2025-Jan-21 09:36:23] # 100 101  3  3  0   0 pool:  1 57754916445 bases/GPU/minute: 3430411908.0 
+[PB Info 2025-Jan-21 09:36:33] # 100 103  1  1  0   0 pool:  3 58336652325 bases/GPU/minute: 3490415280.0 
+[PB Info 2025-Jan-21 09:36:43] # 100 103  1  1  0   0 pool:  3 58918443129 bases/GPU/minute: 3490744824.0 
+[PB Info 2025-Jan-21 09:36:53] # 100 102  2  4  0   0 pool:  0 59500135688 bases/GPU/minute: 3490155354.0 
+[PB Info 2025-Jan-21 09:37:03] # 100 100  4  2  0   0 pool:  2 60071992920 bases/GPU/minute: 3431143392.0 
+[PB Info 2025-Jan-21 09:37:13] # 100 103  1  1  0   0 pool:  3 60633831369 bases/GPU/minute: 3371030694.0 
+[PB Info 2025-Jan-21 09:37:23] # 100 102  2  4  0   0 pool:  0 61225476258 bases/GPU/minute: 3549869334.0 
+[PB Info 2025-Jan-21 09:37:33] # 100 101  3  3  0   0 pool:  1 61797228497 bases/GPU/minute: 3430513434.0 
+[PB Info 2025-Jan-21 09:37:43] # 100 103  0  2  0   0 pool:  3 62369040803 bases/GPU/minute: 3430873836.0 
+[PB Info 2025-Jan-21 09:37:53] # 100 101  3  1  0   0 pool:  3 62960735478 bases/GPU/minute: 3550168050.0 
+[PB Info 2025-Jan-21 09:38:03] # 100 101  3  3  0   0 pool:  1 63512631759 bases/GPU/minute: 3311377686.0 
+[PB Info 2025-Jan-21 09:38:13] # 100 100  4  2  0   0 pool:  2 64084322033 bases/GPU/minute: 3430141644.0 
+[PB Info 2025-Jan-21 09:38:23] # 100 101  3  3  0   0 pool:  2 64655979196 bases/GPU/minute: 3429942978.0 
+[PB Info 2025-Jan-21 09:38:33] # 100 101  3  1  0   0 pool:  3 65237667297 bases/GPU/minute: 3490128606.0 
+[PB Info 2025-Jan-21 09:38:43] # 100 100  4  2  0   0 pool:  2 65809397435 bases/GPU/minute: 3430380828.0 
+[PB Info 2025-Jan-21 09:38:53] # 100 100  3  3  0   0 pool:  2 66391093085 bases/GPU/minute: 3490173900.0 
+[PB Info 2025-Jan-21 09:39:03] # 100 101  2  2  0   0 pool:  3 66962746449 bases/GPU/minute: 3429920184.0 
+[PB Info 2025-Jan-21 09:39:13] # 100 100  4  2  0   0 pool:  2 67544406875 bases/GPU/minute: 3489962556.0 
+[PB Info 2025-Jan-21 09:39:23] # 100 101  3  3  0   0 pool:  1 68116104673 bases/GPU/minute: 3430186788.0 
+[PB Info 2025-Jan-21 09:39:33] # 100 101  2  2  0   0 pool:  3 68687891217 bases/GPU/minute: 3430719264.0 
+[PB Info 2025-Jan-21 09:39:43] # 100 100  4  2  0   0 pool:  2 69259555786 bases/GPU/minute: 3429987414.0 
+[PB Info 2025-Jan-21 09:39:53] # 100 101  3  3  0   0 pool:  1 69841199568 bases/GPU/minute: 3489862692.0 
+[PB Info 2025-Jan-21 09:40:03] # 100 101  2  2  0   0 pool:  3 70412838248 bases/GPU/minute: 3429832080.0 
+[PB Info 2025-Jan-21 09:40:13] # 100 100  4  2  0   0 pool:  2 70984638205 bases/GPU/minute: 3430799742.0 
+[PB Info 2025-Jan-21 09:40:23] # 100 101  3  3  0   0 pool:  1 71556374147 bases/GPU/minute: 3430415652.0 
+[PB Info 2025-Jan-21 09:40:33] # 100 101  3  1  0   0 pool:  3 72138097635 bases/GPU/minute: 3490340928.0 
+[PB Info 2025-Jan-21 09:40:43] # 100 101  3  3  0   0 pool:  1 72709644632 bases/GPU/minute: 3429281982.0 
+[PB Info 2025-Jan-21 09:40:53] # 100 101  2  2  0   0 pool:  3 73281471354 bases/GPU/minute: 3430960332.0 
+[PB Info 2025-Jan-21 09:41:03] # 100 100  3  3  0   0 pool:  2 73853211922 bases/GPU/minute: 3430443408.0 
+[PB Info 2025-Jan-21 09:41:13] # 100 101  3  1  0   0 pool:  3 74424886576 bases/GPU/minute: 3430047924.0 
+[PB Info 2025-Jan-21 09:41:23] # 100 100  4  2  0   0 pool:  2 75006502518 bases/GPU/minute: 3489695652.0 
+[PB Info 2025-Jan-21 09:41:33] # 100 101  3  3  0   0 pool:  1 75568334752 bases/GPU/minute: 3370993404.0 
+[PB Info 2025-Jan-21 09:41:43] # 100 100  4  2  0   0 pool:  2 76149870475 bases/GPU/minute: 3489214338.0 
+[PB Info 2025-Jan-21 09:41:53] # 100 101  3  1  0   0 pool:  3 76711629940 bases/GPU/minute: 3370556790.0 
+[PB Info 2025-Jan-21 09:42:03] # 100 100  4  2  0   0 pool:  2 77293228298 bases/GPU/minute: 3489590148.0 
+[PB Info 2025-Jan-21 09:42:13] # 100 101  3  1  0   0 pool:  3 77864990114 bases/GPU/minute: 3430570896.0 
+[PB Info 2025-Jan-21 09:42:23] # 100 101  3  1  0   0 pool:  3 78436804719 bases/GPU/minute: 3430887630.0 
+[PB Info 2025-Jan-21 09:42:33] # 100 100  4  2  0   0 pool:  2 79018414881 bases/GPU/minute: 3489660972.0 
+[PB Info 2025-Jan-21 09:42:43] # 100 100  4  2  0   0 pool:  2 79590282713 bases/GPU/minute: 3431206992.0 
+[PB Info 2025-Jan-21 09:42:53] # 100 101  3  1  0   0 pool:  3 80162072849 bases/GPU/minute: 3430740816.0 
+[PB Info 2025-Jan-21 09:43:03] # 100 100  4  2  0   0 pool:  2 80733792680 bases/GPU/minute: 3430318986.0 
+[PB Info 2025-Jan-21 09:43:13] # 100 101  3  3  0   0 pool:  1 81315429665 bases/GPU/minute: 3489821910.0 
+[PB Info 2025-Jan-21 09:43:23] # 100 101  3  1  0   0 pool:  3 81897219101 bases/GPU/minute: 3490736616.0 
+[PB Info 2025-Jan-21 09:43:33] # 100 100  4  1  0   0 pool:  3 82459097240 bases/GPU/minute: 3371268834.0 
+[PB Info 2025-Jan-21 09:43:43] # 100 100  4  2  0   0 pool:  2 83030840164 bases/GPU/minute: 3430457544.0 
+[PB Info 2025-Jan-21 09:43:53] # 100 100  4  2  0   0 pool:  2 83612603327 bases/GPU/minute: 3490578978.0 
+[PB Info 2025-Jan-21 09:44:03] # 100 102  2  1  0   0 pool:  3 84184370508 bases/GPU/minute: 3430603086.0 
+[PB Info 2025-Jan-21 09:44:13] # 100 101  3  1  0   0 pool:  3 84746248966 bases/GPU/minute: 3371270748.0 
+[PB Info 2025-Jan-21 09:44:23] # 100 101  2  2  0   0 pool:  3 85327990148 bases/GPU/minute: 3490447092.0 
+[PB Info 2025-Jan-21 09:44:33] # 100 100  4  2  0   0 pool:  2 85909628187 bases/GPU/minute: 3489828234.0 
+[PB Info 2025-Jan-21 09:44:43] # 100 101  3  3  0   0 pool:  1 86491330774 bases/GPU/minute: 3490215522.0 
+[PB Info 2025-Jan-21 09:44:53] # 100 101  2  2  0   0 pool:  3 87063186644 bases/GPU/minute: 3431135220.0 
+[PB Info 2025-Jan-21 09:45:03] # 100 102  2  4  0   0 pool:  0 87634896888 bases/GPU/minute: 3430261464.0 
+[PB Info 2025-Jan-21 09:45:13] # 100 101  3  3  0   0 pool:  1 88206593120 bases/GPU/minute: 3430177392.0 
+[PB Info 2025-Jan-21 09:45:23] # 100 100  4  2  0   0 pool:  2 88788290434 bases/GPU/minute: 3490183884.0 
+[PB Info 2025-Jan-21 09:45:33] # 100 100  4  2  0   0 pool:  2 89349878855 bases/GPU/minute: 3369530526.0 
+[PB Info 2025-Jan-21 09:45:43] # 100 103  1  1  0   0 pool:  3 89901519290 bases/GPU/minute: 3309842610.0 
+[PB Info 2025-Jan-21 09:45:53] # 100 101  3  3  0   0 pool:  1 90473000165 bases/GPU/minute: 3428885250.0 
+[PB Info 2025-Jan-21 09:46:03] # 100 103  1  1  0   0 pool:  3 91034756241 bases/GPU/minute: 3370536456.0 
+[PB Info 2025-Jan-21 09:46:13] # 100 102  2  4  0   0 pool:  0 91616274188 bases/GPU/minute: 3489107682.0 
+[PB Info 2025-Jan-21 09:46:23] # 100 100  3  3  0   0 pool:  2 92188051850 bases/GPU/minute: 3430665972.0 
+[PB Info 2025-Jan-21 09:46:33] # 100 102  2  4  0   0 pool:  1 92759717335 bases/GPU/minute: 3429992910.0 
+[PB Info 2025-Jan-21 09:46:43] # 100 102  2  4  0   0 pool:  0 93331249482 bases/GPU/minute: 3429192882.0 
+[PB Info 2025-Jan-21 09:46:53] # 100 100  4  2  0   0 pool:  2 93892984366 bases/GPU/minute: 3370409304.0 
+[PB Info 2025-Jan-21 09:47:03] # 100 100  4  2  0   0 pool:  2 94454605450 bases/GPU/minute: 3369726504.0 
+[PB Info 2025-Jan-21 09:47:13] # 100 101  2  2  0   0 pool:  3 95026280883 bases/GPU/minute: 3430052598.0 
+[PB Info 2025-Jan-21 09:47:23] # 100 101  3  1  0   0 pool:  3 95587921331 bases/GPU/minute: 3369842688.0 
+[PB Info 2025-Jan-21 09:47:33] # 100 100  4  2  0   0 pool:  2 96159571018 bases/GPU/minute: 3429898122.0 
+[PB Info 2025-Jan-21 09:47:43] # 100 100  4  2  0   0 pool:  2 96731118065 bases/GPU/minute: 3429282282.0 
+[PB Info 2025-Jan-21 09:47:53] # 100 100  4  2  0   0 pool:  2 97292796109 bases/GPU/minute: 3370068264.0 
+[PB Info 2025-Jan-21 09:48:03] # 100 100  4  2  0   0 pool:  2 97854571625 bases/GPU/minute: 3370653096.0 
+[PB Info 2025-Jan-21 09:48:13] # 100 103  1  1  0   0 pool:  3 98436107183 bases/GPU/minute: 3489213348.0 
+[PB Info 2025-Jan-21 09:48:23] # 100 102  1  1  0   0 pool:  4 98997886786 bases/GPU/minute: 3370677618.0 
+[PB Info 2025-Jan-21 09:48:33] # 100 101  3  3  0   0 pool:  2 99559550906 bases/GPU/minute: 3369984720.0 
+[PB Info 2025-Jan-21 09:48:43] # 100 100  4  2  0   0 pool:  2 100131193469 bases/GPU/minute: 3429855378.0 
+[PB Info 2025-Jan-21 09:48:53] # 100 101  3  3  0   0 pool:  1 100692786761 bases/GPU/minute: 3369559752.0 
+[PB Info 2025-Jan-21 09:49:03] # 100 101  3  3  0   0 pool:  1 101254396052 bases/GPU/minute: 3369655746.0 
+[PB Info 2025-Jan-21 09:49:13] # 100 100  4  2  0   0 pool:  2 101825998437 bases/GPU/minute: 3429614310.0 
+[PB Info 2025-Jan-21 09:49:23] # 100 100  3  3  0   0 pool:  2 102377695493 bases/GPU/minute: 3310182336.0 
+[PB Info 2025-Jan-21 09:49:33] # 100 101  3  3  0   0 pool:  1 102939119652 bases/GPU/minute: 3368544954.0 
+[PB Info 2025-Jan-21 09:49:43] # 100 101  3  3  0   0 pool:  1 103490838373 bases/GPU/minute: 3310312326.0 
+[PB Info 2025-Jan-21 09:49:53] # 100 101  3  3  0   0 pool:  1 104052419061 bases/GPU/minute: 3369484128.0 
+[PB Info 2025-Jan-21 09:50:03] # 100 101  3  3  0   0 pool:  1 104614013778 bases/GPU/minute: 3369568302.0 
+[PB Info 2025-Jan-21 09:50:13] # 100 101  2  4  0   0 pool:  1 105175572666 bases/GPU/minute: 3369353328.0 
+[PB Info 2025-Jan-21 09:50:23] # 100 102  2  4  0   0 pool:  0 105737002362 bases/GPU/minute: 3368578176.0 
+[PB Info 2025-Jan-21 09:50:33] # 100 102  2  4  0   0 pool:  0 106288689338 bases/GPU/minute: 3310121856.0 
+[PB Info 2025-Jan-21 09:50:43] # 100 101  3  3  0   0 pool:  1 106860305733 bases/GPU/minute: 3429698370.0 
+[PB Info 2025-Jan-21 09:50:53] # 100 101  3  3  0   0 pool:  1 107431753573 bases/GPU/minute: 3428687040.0 
+[PB Info 2025-Jan-21 09:51:03] # 100 101  3  3  0   0 pool:  1 107983441100 bases/GPU/minute: 3310125162.0 
+[PB Info 2025-Jan-21 09:51:13] # 100 100  3  3  0   0 pool:  2 108545201051 bases/GPU/minute: 3370559706.0 
+[PB Info 2025-Jan-21 09:51:23] # 100 100  4  2  0   0 pool:  2 109116614419 bases/GPU/minute: 3428480208.0 
+[PB Info 2025-Jan-21 09:51:33] # 100 103  1  1  0   0 pool:  3 109688221558 bases/GPU/minute: 3429642834.0 
+[PB Info 2025-Jan-21 09:51:43] # 100 100  4  2  0   0 pool:  2 110239789500 bases/GPU/minute: 3309407652.0 
+[PB Info 2025-Jan-21 09:51:53] # 100 103  0  2  0   0 pool:  3 110811213412 bases/GPU/minute: 3428543472.0 
+[PB Info 2025-Jan-21 09:52:03] # 100 100  4  2  0   0 pool:  2 111372775627 bases/GPU/minute: 3369373290.0 
+[PB Info 2025-Jan-21 09:52:13] # 100 102  2  3  0   0 pool:  1 111934460556 bases/GPU/minute: 3370109574.0 
+[PB Info 2025-Jan-21 09:52:23] # 100 102  2  4  0   0 pool:  0 112505889765 bases/GPU/minute: 3428575254.0 
+[PB Info 2025-Jan-21 09:52:33] # 100 101  3  3  0   0 pool:  1 113077437455 bases/GPU/minute: 3429286140.0 
+[PB Info 2025-Jan-21 09:52:43] # 100 100  3  3  0   0 pool:  2 113629110243 bases/GPU/minute: 3310036728.0 
+[PB Info 2025-Jan-21 09:52:53] # 100 101  3  3  0   0 pool:  1 114200495330 bases/GPU/minute: 3428310522.0 
+[PB Info 2025-Jan-21 09:53:03] # 100 100  4  2  0   0 pool:  2 114762162387 bases/GPU/minute: 3370002342.0 
+[PB Info 2025-Jan-21 09:53:13] # 100 100  4  2  0   0 pool:  2 115333566645 bases/GPU/minute: 3428425548.0 
+[PB Info 2025-Jan-21 09:53:23] # 100 103  1  1  0   0 pool:  3 115895236186 bases/GPU/minute: 3370017246.0 
+[PB Info 2025-Jan-21 09:53:33] # 100 102  2  4  0   0 pool:  0 116466811506 bases/GPU/minute: 3429451920.0 
+[PB Info 2025-Jan-21 09:53:43] # 100 102  2  3  0   0 pool:  1 117028326152 bases/GPU/minute: 3369087876.0 
+[PB Info 2025-Jan-21 09:53:53] # 100 102  2  4  0   0 pool:  0 117589890738 bases/GPU/minute: 3369387516.0 
+[PB Info 2025-Jan-21 09:54:03] # 100 101  3  3  0   0 pool:  1 118161538903 bases/GPU/minute: 3429888990.0 
+[PB Info 2025-Jan-21 09:54:13] # 100 100  3  3  0   0 pool:  2 118733174728 bases/GPU/minute: 3429814950.0 
+[PB Info 2025-Jan-21 09:54:23] # 100 100  4  2  0   0 pool:  2 119294789311 bases/GPU/minute: 3369687498.0 
+[PB Info 2025-Jan-21 09:54:33] # 100 103  1  1  0   0 pool:  3 119866419765 bases/GPU/minute: 3429782724.0 
+[PB Info 2025-Jan-21 09:54:43] # 100 102  2  1  0   0 pool:  3 120428215903 bases/GPU/minute: 3370776828.0 
+[PB Info 2025-Jan-21 09:54:53] # 100 100  4  2  0   0 pool:  2 121009862929 bases/GPU/minute: 3489882156.0 
+[PB Info 2025-Jan-21 09:55:03] # 100 103  1  1  0   0 pool:  3 121591372844 bases/GPU/minute: 3489059490.0 
+[PB Info 2025-Jan-21 09:55:13] # 100 101  3  3  0   0 pool:  1 122173041413 bases/GPU/minute: 3490011414.0 
+[PB Info 2025-Jan-21 09:55:23] # 100 100  4  2  0   0 pool:  2 122754547332 bases/GPU/minute: 3489035514.0 
+[PB Info 2025-Jan-21 09:55:33] # 100 102  2  4  0   0 pool:  0 123326385596 bases/GPU/minute: 3431029584.0 
+[PB Info 2025-Jan-21 09:55:43] # 100 100  4  2  0   0 pool:  2 123908045831 bases/GPU/minute: 3489961410.0 
+[PB Info 2025-Jan-21 09:55:53] # 100 103  1  1  0   0 pool:  3 124479691734 bases/GPU/minute: 3429875418.0 
+[PB Info 2025-Jan-21 09:56:03] # 100 102  2  1  0   0 pool:  3 125051316676 bases/GPU/minute: 3429749652.0 
+[PB Info 2025-Jan-21 09:56:13] # 100 100  4  2  0   0 pool:  2 125622959337 bases/GPU/minute: 3429855966.0 
+[PB Info 2025-Jan-21 09:56:23] # 100 100  3  3  0   0 pool:  2 126184522204 bases/GPU/minute: 3369377202.0 
+[PB Info 2025-Jan-21 09:56:33] # 100 101  2  2  0   0 pool:  3 126756119511 bases/GPU/minute: 3429583842.0 
+[PB Info 2025-Jan-21 09:56:43] # 100 101  3  3  0   0 pool:  1 127317690174 bases/GPU/minute: 3369423978.0 
+[PB Info 2025-Jan-21 09:56:53] # 100 103  1  1  0   0 pool:  3 127889122527 bases/GPU/minute: 3428594118.0 
+[PB Info 2025-Jan-21 09:57:03] # 100 102  2  4  0   0 pool:  0 128450853411 bases/GPU/minute: 3370385304.0 
+[PB Info 2025-Jan-21 09:57:13] # 100 101  2  4  0   0 pool:  1 129022408548 bases/GPU/minute: 3429330822.0 
+[PB Info 2025-Jan-21 09:57:23] # 100 101  3  3  0   0 pool:  1 129584004985 bases/GPU/minute: 3369578622.0 
+[PB Info 2025-Jan-21 09:57:33] # 100 103  1  1  0   0 pool:  3 130165637765 bases/GPU/minute: 3489796680.0 
+[PB Info 2025-Jan-21 09:57:43] # 100 102  2  4  0   0 pool:  0 130747154617 bases/GPU/minute: 3489101112.0 
+[PB Info 2025-Jan-21 09:57:53] # 100 101  3  3  0   0 pool:  1 131308913845 bases/GPU/minute: 3370555368.0 
+[PB Info 2025-Jan-21 09:58:03] # 100 103  1  1  0   0 pool:  3 131890587449 bases/GPU/minute: 3490041624.0 
+[PB Info 2025-Jan-21 09:58:13] # 100 102  1  2  0   0 pool:  3 132452174795 bases/GPU/minute: 3369524076.0 
+[PB Info 2025-Jan-21 09:58:23] # 100 101  3  3  0   0 pool:  1 133033856882 bases/GPU/minute: 3490092522.0 
+[PB Info 2025-Jan-21 09:58:33] # 100 100  3  3  0   0 pool:  2 133605478141 bases/GPU/minute: 3429727554.0 
+[PB Info 2025-Jan-21 09:58:43] # 100 100  4  2  0   0 pool:  2 134176934543 bases/GPU/minute: 3428738412.0 
+[PB Info 2025-Jan-21 09:58:53] # 100 102  2  4  0   0 pool:  0 134738717187 bases/GPU/minute: 3370695864.0 
+[PB Info 2025-Jan-21 09:59:03] # 100 101  2  4  0   0 pool:  1 135310190264 bases/GPU/minute: 3428838462.0 
+[PB Info 2025-Jan-21 09:59:13] # 100 101  3  3  0   0 pool:  1 135871985574 bases/GPU/minute: 3370771860.0 
+[PB Info 2025-Jan-21 09:59:23] # 100 100  4  2  0   0 pool:  2 136443592415 bases/GPU/minute: 3429641046.0 
+[PB Info 2025-Jan-21 09:59:33] # 100 100  4  2  0   0 pool:  2 137005211332 bases/GPU/minute: 3369713502.0 
+[PB Info 2025-Jan-21 09:59:43] # 100 103  1  1  0   0 pool:  3 137576820761 bases/GPU/minute: 3429656574.0 
+[PB Info 2025-Jan-21 09:59:53] # 100 102  2  4  0   0 pool:  0 138158314490 bases/GPU/minute: 3488962374.0 
+[PB Info 2025-Jan-21 10:00:03] # 100 100  3  3  0   0 pool:  2 138730071730 bases/GPU/minute: 3430543440.0 
+[PB Info 2025-Jan-21 10:00:13] # 100 100  4  2  0   0 pool:  2 139301547218 bases/GPU/minute: 3428852928.0 
+[PB Info 2025-Jan-21 10:00:23] # 100 102  2  1  0   0 pool:  3 139873356916 bases/GPU/minute: 3430858188.0 
+[PB Info 2025-Jan-21 10:00:33] # 100 101  3  1  0   0 pool:  3 140444981860 bases/GPU/minute: 3429749664.0 
+[PB Info 2025-Jan-21 10:00:43] # 100 100  4  2  0   0 pool:  2 141006606560 bases/GPU/minute: 3369748200.0 
+[PB Info 2025-Jan-21 10:00:53] # 100 103  1  1  0   0 pool:  3 141578208074 bases/GPU/minute: 3429609084.0 
+[PB Info 2025-Jan-21 10:01:03] # 100 102  2  4  0   0 pool:  0 142159699320 bases/GPU/minute: 3488947476.0 
+[PB Info 2025-Jan-21 10:01:13] # 100 101  3  3  0   0 pool:  1 142731307080 bases/GPU/minute: 3429646560.0 
+[PB Info 2025-Jan-21 10:01:23] # 100 103  1  1  0   0 pool:  3 143303076575 bases/GPU/minute: 3430616970.0 
+[PB Info 2025-Jan-21 10:01:33] # 100 102  2  4  0   0 pool:  0 143874659200 bases/GPU/minute: 3429495750.0 
+[PB Info 2025-Jan-21 10:01:43] # 100 101  3  3  0   0 pool:  1 144456108518 bases/GPU/minute: 3488695908.0 
+[PB Info 2025-Jan-21 10:01:53] # 100 100  4  2  0   0 pool:  2 145017809768 bases/GPU/minute: 3370207500.0 
+[PB Info 2025-Jan-21 10:02:03] # 100 103  1  1  0   0 pool:  3 145589360541 bases/GPU/minute: 3429304638.0 
+[PB Info 2025-Jan-21 10:02:13] # 100 102  2  4  0   0 pool:  0 146160941405 bases/GPU/minute: 3429485184.0 
+[PB Info 2025-Jan-21 10:02:23] # 100 101  3  3  0   0 pool:  1 146732511431 bases/GPU/minute: 3429420156.0 
+[PB Info 2025-Jan-21 10:02:33] # 100 101  3  3  0   0 pool:  1 147294081213 bases/GPU/minute: 3369418692.0 
+[PB Info 2025-Jan-21 10:02:43] # 100 100  4  2  0   0 pool:  2 147875535667 bases/GPU/minute: 3488726724.0 
+[PB Info 2025-Jan-21 10:02:53] # 100 103  1  1  0   0 pool:  3 148437323373 bases/GPU/minute: 3370726236.0 
+[PB Info 2025-Jan-21 10:03:03] # 100 102  2  4  0   0 pool:  0 149018834869 bases/GPU/minute: 3489068976.0 
+[PB Info 2025-Jan-21 10:03:13] # 100 101  3  3  0   0 pool:  1 149580661941 bases/GPU/minute: 3370962432.0 
+[PB Info 2025-Jan-21 10:03:23] # 100 100  4  2  0   0 pool:  2 150152282255 bases/GPU/minute: 3429721884.0 
+[PB Info 2025-Jan-21 10:03:33] # 100 103  1  1  0   0 pool:  3 150723907388 bases/GPU/minute: 3429750798.0 
+[PB Info 2025-Jan-21 10:03:43] # 100 102  2  4  0   0 pool:  0 151305440489 bases/GPU/minute: 3489198606.0 
+[PB Info 2025-Jan-21 10:03:53] # 100 101  3  3  0   0 pool:  1 151877048895 bases/GPU/minute: 3429650436.0 
+[PB Info 2025-Jan-21 10:04:03] # 100 103  1  1  0   0 pool:  3 152448864300 bases/GPU/minute: 3430892430.0 
+[PB Info 2025-Jan-21 10:04:13] # 100 101  2  4  0   0 pool:  1 153030511364 bases/GPU/minute: 3489882384.0 
+[PB Info 2025-Jan-21 10:04:23] # 100 100  4  2  0   0 pool:  2 153602195977 bases/GPU/minute: 3430107678.0 
+[PB Info 2025-Jan-21 10:04:33] # 100 103  1  1  0   0 pool:  3 154173820844 bases/GPU/minute: 3429749202.0 
+[PB Info 2025-Jan-21 10:04:43] # 100 101  3  3  0   0 pool:  1 154755507182 bases/GPU/minute: 3490118028.0 
+[PB Info 2025-Jan-21 10:04:53] # 100 100  4  2  0   0 pool:  2 155337070131 bases/GPU/minute: 3489377694.0 
+[PB Info 2025-Jan-21 10:05:03] # 100 102  2  4  0   0 pool:  0 155908932097 bases/GPU/minute: 3431171796.0 
+[PB Info 2025-Jan-21 10:05:13] # 100 100  4  2  0   0 pool:  2 156490690940 bases/GPU/minute: 3490553058.0 
+[PB Info 2025-Jan-21 10:05:23] # 100 103  1  1  0   0 pool:  3 157062288557 bases/GPU/minute: 3429585702.0 
+[PB Info 2025-Jan-21 10:05:33] # 97 102  2  4  0   0 pool:  4 157624041625 bases/GPU/minute: 3370518408.0 
+[PB Info 2025-Jan-21 10:05:43] # 100 101  3  3  0   0 pool:  1 158205474593 bases/GPU/minute: 3488597808.0 
+[PB Info 2025-Jan-21 10:05:53] # 100 101  3  3  0   0 pool:  1 158767041719 bases/GPU/minute: 3369402756.0 
+[PB Info 2025-Jan-21 10:06:03] # 100 103  1  1  0   0 pool:  3 159348664396 bases/GPU/minute: 3489736062.0 
+[PB Info 2025-Jan-21 10:06:13] # 100 102  2  4  0   0 pool:  0 159930115090 bases/GPU/minute: 3488704164.0 
+[PB Info 2025-Jan-21 10:06:23] # 100 100  4  2  0   0 pool:  2 160501890358 bases/GPU/minute: 3430651608.0 
+[PB Info 2025-Jan-21 10:06:33] # 100 101  3  3  0   0 pool:  1 161073489669 bases/GPU/minute: 3429595866.0 
+[PB Info 2025-Jan-21 10:06:43] # 100 100  4  2  0   0 pool:  2 161654985471 bases/GPU/minute: 3488974812.0 
+[PB Info 2025-Jan-21 10:06:43] Time spent reading: 133.227559 seconds
+[PB Info 2025-Jan-21 10:06:53] # 45 102  1  1  0   0 pool: 60 162226571221 bases/GPU/minute: 3429514500.0 
+[PB Info 2025-Jan-21 10:07:03] #  0 92  0  6  0   0 pool: 100 162778317922 bases/GPU/minute: 3310480206.0 
+[PB Info 2025-Jan-21 10:07:13] #  0 39  0  6  0   0 pool: 100 163309858181 bases/GPU/minute: 3189241554.0 
+[PB Info 2025-Jan-21 10:07:20] GPU 0 exited
+[PB Info 2025-Jan-21 10:07:20] GPU 0 exited
+[PB Info 2025-Jan-21 10:07:20] GPU 0 exited
+[PB Info 2025-Jan-21 10:07:20] GPU 0 exited
+[PB Info 2025-Jan-21 10:07:21] A CPU has exited
+[PB Info 2025-Jan-21 10:07:23] #  0  0  0  0  0   0 pool: 100 163782339954 bases/GPU/minute: 2834890638.0 
+[PB Info 2025-Jan-21 10:07:33] #  0  0  0  0  0   0 pool: 100 163782339954 bases/GPU/minute: 0.0 
+[PB Info 2025-Jan-21 10:07:43] Rate stats (based on sampling every 10 seconds):
+	min rate: 0.0 bases/GPU/minute
+	max rate: 3731446968.0 bases/GPU/minute
+	avg rate: 3400325397.0 bases/GPU/minute
+[PB Info 2025-Jan-21 10:07:43] Time spent monitoring (multiple of 10): 2900.071
+[PB Info 2025-Jan-21 10:07:43] bwalib run finished in 2897.049 seconds
+[PB Info 2025-Jan-21 10:07:43] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:07:43] ||        Program:                    GPU-PBBWA mem, Sorting Phase-I        ||
+[PB Info 2025-Jan-21 10:07:43] ||        Version:                                           4.4.0-1        ||
+[PB Info 2025-Jan-21 10:07:43] ||        Start Time:                       Tue Jan 21 09:19:23 2025        ||
+[PB Info 2025-Jan-21 10:07:43] ||        End Time:                         Tue Jan 21 10:07:43 2025        ||
+[PB Info 2025-Jan-21 10:07:43] ||        Total Time:                          48 minutes 20 seconds        ||
+[PB Info 2025-Jan-21 10:07:43] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:07:45] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:07:45] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2025-Jan-21 10:07:45] ||                              Version 4.4.0-1                             ||
+[PB Info 2025-Jan-21 10:07:45] ||                             Sorting Phase-II                             ||
+[PB Info 2025-Jan-21 10:07:45] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:07:45] Using CPU-mode for sort when duplicate metrics file is requested.
+[PB Info 2025-Jan-21 10:07:45] Performance may be slower than GPU-mode.
+[PB Info 2025-Jan-21 10:07:45] progressMeter - Percentage
+[PB Info 2025-Jan-21 10:07:45] 0.0
+[PB Info 2025-Jan-21 10:07:50] 2.7
+[PB Info 2025-Jan-21 10:07:55] 5.5
+[PB Info 2025-Jan-21 10:08:00] 8.6
+[PB Info 2025-Jan-21 10:08:05] 11.5
+[PB Info 2025-Jan-21 10:08:10] 14.7
+[PB Info 2025-Jan-21 10:08:15] 17.8
+[PB Info 2025-Jan-21 10:08:20] 20.9
+[PB Info 2025-Jan-21 10:08:25] 23.7
+[PB Info 2025-Jan-21 10:08:30] 26.4
+[PB Info 2025-Jan-21 10:08:35] 29.5
+[PB Info 2025-Jan-21 10:08:40] 32.5
+[PB Info 2025-Jan-21 10:08:45] 35.9
+[PB Info 2025-Jan-21 10:08:50] 38.7
+[PB Info 2025-Jan-21 10:08:55] 41.8
+[PB Info 2025-Jan-21 10:09:00] 44.7
+[PB Info 2025-Jan-21 10:09:05] 47.9
+[PB Info 2025-Jan-21 10:09:10] 51.0
+[PB Info 2025-Jan-21 10:09:15] 54.0
+[PB Info 2025-Jan-21 10:09:20] 56.9
+[PB Info 2025-Jan-21 10:09:25] 59.7
+[PB Info 2025-Jan-21 10:09:30] 62.8
+[PB Info 2025-Jan-21 10:09:35] 65.9
+[PB Info 2025-Jan-21 10:09:40] 68.9
+[PB Info 2025-Jan-21 10:09:45] 72.2
+[PB Info 2025-Jan-21 10:09:50] 75.1
+[PB Info 2025-Jan-21 10:09:55] 77.9
+[PB Info 2025-Jan-21 10:10:00] 80.6
+[PB Info 2025-Jan-21 10:10:05] 82.8
+[PB Info 2025-Jan-21 10:10:10] 85.9
+[PB Info 2025-Jan-21 10:10:15] 88.9
+[PB Info 2025-Jan-21 10:10:20] 91.9
+[PB Info 2025-Jan-21 10:10:25] 97.4
+[PB Info 2025-Jan-21 10:10:30] 99.9
+[PB Info 2025-Jan-21 10:10:35] Sorting and Marking: 170.010 seconds
+[PB Info 2025-Jan-21 10:10:35] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:10:35] ||        Program:                                  Sorting Phase-II        ||
+[PB Info 2025-Jan-21 10:10:35] ||        Version:                                           4.4.0-1        ||
+[PB Info 2025-Jan-21 10:10:35] ||        Start Time:                       Tue Jan 21 10:07:45 2025        ||
+[PB Info 2025-Jan-21 10:10:35] ||        End Time:                         Tue Jan 21 10:10:35 2025        ||
+[PB Info 2025-Jan-21 10:10:35] ||        Total Time:                           2 minutes 50 seconds        ||
+[PB Info 2025-Jan-21 10:10:35] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:10:35] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:10:35] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2025-Jan-21 10:10:35] ||                              Version 4.4.0-1                             ||
+[PB Info 2025-Jan-21 10:10:35] ||                         Marking Duplicates, BQSR                         ||
+[PB Info 2025-Jan-21 10:10:35] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:10:35] CuBamWriter using CUDA device 0
+[PB Warning 2025-Jan-21 10:10:35][src/main.cu:919] CuBamWriter and BQSR sharing GPU 0; performance may be impacted
+[PB Info 2025-Jan-21 10:10:35] BQSR using CUDA device(s): { 0 }
+[PB Info 2025-Jan-21 10:10:36] Using PBCuBamWriter for BAM writing (algo 1)
+[PB Info 2025-Jan-21 10:10:37] progressMeter -	Percentage
+[PB Info 2025-Jan-21 10:10:43] Checking if the index file exists for the input compressed file:/workdir/reference/rattus_norvegicus.vcf.gz for better performance
+[PB Info 2025-Jan-21 10:10:47] 0.0
+[PB Info 2025-Jan-21 10:10:57] 1.1
+[PB Info 2025-Jan-21 10:11:07] 2.0
+[PB Info 2025-Jan-21 10:11:17] 2.9
+[PB Info 2025-Jan-21 10:11:27] 3.8
+[PB Info 2025-Jan-21 10:11:37] 4.9
+[PB Info 2025-Jan-21 10:11:47] 5.9
+[PB Info 2025-Jan-21 10:11:57] 6.9
+[PB Info 2025-Jan-21 10:12:07] 8.2
+[PB Info 2025-Jan-21 10:12:17] 9.3
+[PB Info 2025-Jan-21 10:12:27] 10.4
+[PB Info 2025-Jan-21 10:12:37] 11.5
+[PB Info 2025-Jan-21 10:12:47] 12.7
+[PB Info 2025-Jan-21 10:12:57] 13.7
+[PB Info 2025-Jan-21 10:13:07] 14.7
+[PB Info 2025-Jan-21 10:13:17] 15.8
+[PB Info 2025-Jan-21 10:13:27] 16.9
+[PB Info 2025-Jan-21 10:13:37] 18.0
+[PB Info 2025-Jan-21 10:13:47] 18.9
+[PB Info 2025-Jan-21 10:13:57] 19.7
+[PB Info 2025-Jan-21 10:14:07] 20.8
+[PB Info 2025-Jan-21 10:14:17] 22.1
+[PB Info 2025-Jan-21 10:14:27] 23.2
+[PB Info 2025-Jan-21 10:14:37] 24.3
+[PB Info 2025-Jan-21 10:14:47] 25.3
+[PB Info 2025-Jan-21 10:14:57] 26.6
+[PB Info 2025-Jan-21 10:15:07] 28.0
+[PB Info 2025-Jan-21 10:15:17] 29.3
+[PB Info 2025-Jan-21 10:15:27] 30.6
+[PB Info 2025-Jan-21 10:15:37] 31.8
+[PB Info 2025-Jan-21 10:15:47] 33.0
+[PB Info 2025-Jan-21 10:15:57] 34.2
+[PB Info 2025-Jan-21 10:16:07] 35.4
+[PB Info 2025-Jan-21 10:16:17] 36.6
+[PB Info 2025-Jan-21 10:16:27] 37.7
+[PB Info 2025-Jan-21 10:16:37] 38.7
+[PB Info 2025-Jan-21 10:16:47] 39.7
+[PB Info 2025-Jan-21 10:16:57] 40.9
+[PB Info 2025-Jan-21 10:17:07] 42.0
+[PB Info 2025-Jan-21 10:17:17] 43.1
+[PB Info 2025-Jan-21 10:17:27] 44.1
+[PB Info 2025-Jan-21 10:17:37] 45.1
+[PB Info 2025-Jan-21 10:17:47] 46.2
+[PB Info 2025-Jan-21 10:17:57] 47.3
+[PB Info 2025-Jan-21 10:18:07] 48.4
+[PB Info 2025-Jan-21 10:18:17] 49.5
+[PB Info 2025-Jan-21 10:18:27] 50.4
+[PB Info 2025-Jan-21 10:18:37] 51.5
+[PB Info 2025-Jan-21 10:18:47] 52.5
+[PB Info 2025-Jan-21 10:18:57] 53.3
+[PB Info 2025-Jan-21 10:19:07] 54.3
+[PB Info 2025-Jan-21 10:19:17] 55.5
+[PB Info 2025-Jan-21 10:19:27] 56.4
+[PB Info 2025-Jan-21 10:19:37] 57.5
+[PB Info 2025-Jan-21 10:19:47] 58.4
+[PB Info 2025-Jan-21 10:19:57] 59.5
+[PB Info 2025-Jan-21 10:20:07] 60.5
+[PB Info 2025-Jan-21 10:20:17] 61.6
+[PB Info 2025-Jan-21 10:20:27] 62.8
+[PB Info 2025-Jan-21 10:20:37] 64.0
+[PB Info 2025-Jan-21 10:20:47] 65.1
+[PB Info 2025-Jan-21 10:20:57] 66.1
+[PB Info 2025-Jan-21 10:21:07] 67.2
+[PB Info 2025-Jan-21 10:21:17] 68.2
+[PB Info 2025-Jan-21 10:21:27] 69.4
+[PB Info 2025-Jan-21 10:21:37] 70.6
+[PB Info 2025-Jan-21 10:21:47] 71.8
+[PB Info 2025-Jan-21 10:21:57] 72.8
+[PB Info 2025-Jan-21 10:22:07] 73.8
+[PB Info 2025-Jan-21 10:22:17] 74.8
+[PB Info 2025-Jan-21 10:22:27] 75.7
+[PB Info 2025-Jan-21 10:22:37] 76.7
+[PB Info 2025-Jan-21 10:22:47] 77.7
+[PB Info 2025-Jan-21 10:22:57] 78.6
+[PB Info 2025-Jan-21 10:23:07] 79.5
+[PB Info 2025-Jan-21 10:23:17] 80.4
+[PB Info 2025-Jan-21 10:23:27] 81.3
+[PB Info 2025-Jan-21 10:23:37] 82.3
+[PB Info 2025-Jan-21 10:23:47] 83.1
+[PB Info 2025-Jan-21 10:23:57] 84.0
+[PB Info 2025-Jan-21 10:24:07] 85.0
+[PB Info 2025-Jan-21 10:24:17] 85.9
+[PB Info 2025-Jan-21 10:24:27] 86.8
+[PB Info 2025-Jan-21 10:24:37] 87.7
+[PB Info 2025-Jan-21 10:24:47] 88.5
+[PB Info 2025-Jan-21 10:24:57] 89.7
+[PB Info 2025-Jan-21 10:25:07] 91.0
+[PB Info 2025-Jan-21 10:25:17] 93.2
+[PB Info 2025-Jan-21 10:25:27] 95.9
+[PB Info 2025-Jan-21 10:25:37] 97.7
+[PB Info 2025-Jan-21 10:25:47] 98.0
+[PB Info 2025-Jan-21 10:25:56] 169556831 reads are filtered
+[PB Info 2025-Jan-21 10:25:57] 100.0
+[PB Info 2025-Jan-21 10:27:49] BQSR and writing final BAM:  1032.481 seconds
+[PB Info 2025-Jan-21 10:27:49] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:27:49] ||        Program:                          Marking Duplicates, BQSR        ||
+[PB Info 2025-Jan-21 10:27:49] ||        Version:                                           4.4.0-1        ||
+[PB Info 2025-Jan-21 10:27:49] ||        Start Time:                       Tue Jan 21 10:10:35 2025        ||
+[PB Info 2025-Jan-21 10:27:49] ||        End Time:                         Tue Jan 21 10:27:49 2025        ||
+[PB Info 2025-Jan-21 10:27:49] ||        Total Time:                          17 minutes 14 seconds        ||
+[PB Info 2025-Jan-21 10:27:49] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:29:11] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:29:11] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2025-Jan-21 10:29:11] ||                              Version 4.4.0-1                             ||
+[PB Info 2025-Jan-21 10:29:11] ||                                deepvariant                               ||
+[PB Info 2025-Jan-21 10:29:11] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:29:12] Starting DeepVariant
+[PB Info 2025-Jan-21 10:29:12] Running with 1 GPU devices, each with 2 group instances and 6 workers
+[PB Info 2025-Jan-21 10:29:18] ProgressMeter -	Current-Locus	Elapsed-Minutes
+[PB Info 2025-Jan-21 10:29:24] ProgressMeter -	1:1463000	0.1
+[PB Info 2025-Jan-21 10:29:30] ProgressMeter -	1:8762000	0.2
+[PB Info 2025-Jan-21 10:29:36] ProgressMeter -	1:22932000	0.3
+[PB Info 2025-Jan-21 10:29:42] ProgressMeter -	1:34046000	0.4
+[PB Info 2025-Jan-21 10:29:48] ProgressMeter -	1:46679000	0.5
+[PB Info 2025-Jan-21 10:29:54] ProgressMeter -	1:54881000	0.6
+[PB Info 2025-Jan-21 10:30:00] ProgressMeter -	1:65002000	0.7
+[PB Info 2025-Jan-21 10:30:06] ProgressMeter -	1:73234000	0.8
+[PB Info 2025-Jan-21 10:30:12] ProgressMeter -	1:81639000	0.9
+[PB Info 2025-Jan-21 10:30:18] ProgressMeter -	1:93391000	1.0
+[PB Info 2025-Jan-21 10:30:24] ProgressMeter -	1:102786000	1.1
+[PB Info 2025-Jan-21 10:30:30] ProgressMeter -	1:109704000	1.2
+[PB Info 2025-Jan-21 10:30:36] ProgressMeter -	1:114931000	1.3
+[PB Info 2025-Jan-21 10:30:42] ProgressMeter -	1:125093000	1.4
+[PB Info 2025-Jan-21 10:30:48] ProgressMeter -	1:133912000	1.5
+[PB Info 2025-Jan-21 10:30:54] ProgressMeter -	1:141596000	1.6
+[PB Info 2025-Jan-21 10:31:00] ProgressMeter -	1:149373000	1.7
+[PB Info 2025-Jan-21 10:31:06] ProgressMeter -	1:157231000	1.8
+[PB Info 2025-Jan-21 10:31:12] ProgressMeter -	1:165076000	1.9
+[PB Info 2025-Jan-21 10:31:18] ProgressMeter -	1:174254000	2.0
+[PB Info 2025-Jan-21 10:31:24] ProgressMeter -	1:183269000	2.1
+[PB Info 2025-Jan-21 10:31:30] ProgressMeter -	1:192958000	2.2
+[PB Info 2025-Jan-21 10:31:36] ProgressMeter -	1:202569000	2.3
+[PB Info 2025-Jan-21 10:31:42] ProgressMeter -	1:213077000	2.4
+[PB Info 2025-Jan-21 10:31:48] ProgressMeter -	1:225767000	2.5
+[PB Info 2025-Jan-21 10:31:54] ProgressMeter -	1:241600000	2.6
+[PB Info 2025-Jan-21 10:32:00] ProgressMeter -	1:249356000	2.7
+[PB Info 2025-Jan-21 10:32:06] ProgressMeter -	1:256491000	2.8
+[PB Info 2025-Jan-21 10:32:12] ProgressMeter -	2:1107000	2.9
+[PB Info 2025-Jan-21 10:32:18] ProgressMeter -	2:9233000	3.0
+[PB Info 2025-Jan-21 10:32:24] ProgressMeter -	2:17533000	3.1
+[PB Info 2025-Jan-21 10:32:30] ProgressMeter -	2:25198000	3.2
+[PB Info 2025-Jan-21 10:32:36] ProgressMeter -	2:33047000	3.3
+[PB Info 2025-Jan-21 10:32:42] ProgressMeter -	2:40718000	3.4
+[PB Info 2025-Jan-21 10:32:48] ProgressMeter -	2:47917000	3.5
+[PB Info 2025-Jan-21 10:32:54] ProgressMeter -	2:55692000	3.6
+[PB Info 2025-Jan-21 10:33:00] ProgressMeter -	2:63885000	3.7
+[PB Info 2025-Jan-21 10:33:06] ProgressMeter -	2:71411000	3.8
+[PB Info 2025-Jan-21 10:33:12] ProgressMeter -	2:78166000	3.9
+[PB Info 2025-Jan-21 10:33:18] ProgressMeter -	2:84437000	4.0
+[PB Info 2025-Jan-21 10:33:24] ProgressMeter -	2:87731000	4.1
+[PB Info 2025-Jan-21 10:33:30] ProgressMeter -	2:95017000	4.2
+[PB Info 2025-Jan-21 10:33:36] ProgressMeter -	2:103726000	4.3
+[PB Info 2025-Jan-21 10:33:42] ProgressMeter -	2:112406000	4.4
+[PB Info 2025-Jan-21 10:33:48] ProgressMeter -	2:121179000	4.5
+[PB Info 2025-Jan-21 10:33:54] ProgressMeter -	2:131124000	4.6
+[PB Info 2025-Jan-21 10:34:00] ProgressMeter -	2:141204000	4.7
+[PB Info 2025-Jan-21 10:34:06] ProgressMeter -	2:148895000	4.8
+[PB Info 2025-Jan-21 10:34:12] ProgressMeter -	2:157151000	4.9
+[PB Info 2025-Jan-21 10:34:18] ProgressMeter -	2:164688000	5.0
+[PB Info 2025-Jan-21 10:34:24] ProgressMeter -	2:171749000	5.1
+[PB Info 2025-Jan-21 10:34:30] ProgressMeter -	2:177176000	5.2
+[PB Info 2025-Jan-21 10:34:36] ProgressMeter -	2:185149000	5.3
+[PB Info 2025-Jan-21 10:34:42] ProgressMeter -	2:192935000	5.4
+[PB Info 2025-Jan-21 10:34:48] ProgressMeter -	2:200832000	5.5
+[PB Info 2025-Jan-21 10:34:54] ProgressMeter -	2:208431000	5.6
+[PB Info 2025-Jan-21 10:35:00] ProgressMeter -	2:216147000	5.7
+[PB Info 2025-Jan-21 10:35:06] ProgressMeter -	2:223754000	5.8
+[PB Info 2025-Jan-21 10:35:12] ProgressMeter -	2:230985000	5.9
+[PB Info 2025-Jan-21 10:35:18] ProgressMeter -	2:238043000	6.0
+[PB Info 2025-Jan-21 10:35:24] ProgressMeter -	2:245833000	6.1
+[PB Info 2025-Jan-21 10:35:30] ProgressMeter -	3:33000	6.2
+[PB Info 2025-Jan-21 10:35:36] ProgressMeter -	3:6781000	6.3
+[PB Info 2025-Jan-21 10:35:42] ProgressMeter -	3:15434000	6.4
+[PB Info 2025-Jan-21 10:35:48] ProgressMeter -	3:24212000	6.5
+[PB Info 2025-Jan-21 10:35:54] ProgressMeter -	3:32197000	6.6
+[PB Info 2025-Jan-21 10:36:00] ProgressMeter -	3:42678000	6.7
+[PB Info 2025-Jan-21 10:36:06] ProgressMeter -	3:53560000	6.8
+[PB Info 2025-Jan-21 10:36:12] ProgressMeter -	3:61900000	6.9
+[PB Info 2025-Jan-21 10:36:18] ProgressMeter -	3:70129000	7.0
+[PB Info 2025-Jan-21 10:36:24] ProgressMeter -	3:77525000	7.1
+[PB Info 2025-Jan-21 10:36:30] ProgressMeter -	3:87487000	7.2
+[PB Info 2025-Jan-21 10:36:36] ProgressMeter -	3:97277000	7.3
+[PB Info 2025-Jan-21 10:36:42] ProgressMeter -	3:106340000	7.4
+[PB Info 2025-Jan-21 10:36:48] ProgressMeter -	3:113431000	7.5
+[PB Info 2025-Jan-21 10:36:54] ProgressMeter -	3:121389000	7.6
+[PB Info 2025-Jan-21 10:37:00] ProgressMeter -	3:129879000	7.7
+[PB Info 2025-Jan-21 10:37:06] ProgressMeter -	3:140612000	7.8
+[PB Info 2025-Jan-21 10:37:12] ProgressMeter -	3:150587000	7.9
+[PB Info 2025-Jan-21 10:37:18] ProgressMeter -	3:159314000	8.0
+[PB Info 2025-Jan-21 10:37:24] ProgressMeter -	3:166704000	8.1
+[PB Info 2025-Jan-21 10:37:30] ProgressMeter -	4:2177000	8.2
+[PB Info 2025-Jan-21 10:37:36] ProgressMeter -	4:9700000	8.3
+[PB Info 2025-Jan-21 10:37:42] ProgressMeter -	4:17411000	8.4
+[PB Info 2025-Jan-21 10:37:48] ProgressMeter -	4:27497000	8.5
+[PB Info 2025-Jan-21 10:37:54] ProgressMeter -	4:38577000	8.6
+[PB Info 2025-Jan-21 10:38:00] ProgressMeter -	4:46215000	8.7
+[PB Info 2025-Jan-21 10:38:06] ProgressMeter -	4:53801000	8.8
+[PB Info 2025-Jan-21 10:38:12] ProgressMeter -	4:61856000	8.9
+[PB Info 2025-Jan-21 10:38:18] ProgressMeter -	4:69046000	9.0
+[PB Info 2025-Jan-21 10:38:24] ProgressMeter -	4:76086000	9.1
+[PB Info 2025-Jan-21 10:38:30] ProgressMeter -	4:86539000	9.2
+[PB Info 2025-Jan-21 10:38:36] ProgressMeter -	4:97346000	9.3
+[PB Info 2025-Jan-21 10:38:42] ProgressMeter -	4:105893000	9.4
+[PB Info 2025-Jan-21 10:38:48] ProgressMeter -	4:117830000	9.5
+[PB Info 2025-Jan-21 10:38:54] ProgressMeter -	4:130050000	9.6
+[PB Info 2025-Jan-21 10:39:00] ProgressMeter -	4:138850000	9.7
+[PB Info 2025-Jan-21 10:39:06] ProgressMeter -	4:146959000	9.8
+[PB Info 2025-Jan-21 10:39:12] ProgressMeter -	4:154386000	9.9
+[PB Info 2025-Jan-21 10:39:18] ProgressMeter -	4:163017000	10.0
+[PB Info 2025-Jan-21 10:39:24] ProgressMeter -	4:169390000	10.1
+[PB Info 2025-Jan-21 10:39:30] ProgressMeter -	4:178746000	10.2
+[PB Info 2025-Jan-21 10:39:36] ProgressMeter -	5:3959000	10.3
+[PB Info 2025-Jan-21 10:39:42] ProgressMeter -	5:12293000	10.4
+[PB Info 2025-Jan-21 10:39:48] ProgressMeter -	5:21739000	10.5
+[PB Info 2025-Jan-21 10:39:54] ProgressMeter -	5:31424000	10.6
+[PB Info 2025-Jan-21 10:40:00] ProgressMeter -	5:39705000	10.7
+[PB Info 2025-Jan-21 10:40:06] ProgressMeter -	5:48684000	10.8
+[PB Info 2025-Jan-21 10:40:12] ProgressMeter -	5:56361000	10.9
+[PB Info 2025-Jan-21 10:40:18] ProgressMeter -	5:64619000	11.0
+[PB Info 2025-Jan-21 10:40:24] ProgressMeter -	5:72922000	11.1
+[PB Info 2025-Jan-21 10:40:30] ProgressMeter -	5:81121000	11.2
+[PB Info 2025-Jan-21 10:40:36] ProgressMeter -	5:88927000	11.3
+[PB Info 2025-Jan-21 10:40:42] ProgressMeter -	5:96368000	11.4
+[PB Info 2025-Jan-21 10:40:48] ProgressMeter -	5:106173000	11.5
+[PB Info 2025-Jan-21 10:40:54] ProgressMeter -	5:116019000	11.6
+[PB Info 2025-Jan-21 10:41:00] ProgressMeter -	5:123883000	11.7
+[PB Info 2025-Jan-21 10:41:06] ProgressMeter -	5:133230000	11.8
+[PB Info 2025-Jan-21 10:41:12] ProgressMeter -	5:141973000	11.9
+[PB Info 2025-Jan-21 10:41:18] ProgressMeter -	5:151776000	12.0
+[PB Info 2025-Jan-21 10:41:24] ProgressMeter -	5:163879000	12.1
+[PB Info 2025-Jan-21 10:41:30] ProgressMeter -	6:8259000	12.2
+[PB Info 2025-Jan-21 10:41:36] ProgressMeter -	6:16206000	12.3
+[PB Info 2025-Jan-21 10:41:42] ProgressMeter -	6:26878000	12.4
+[PB Info 2025-Jan-21 10:41:48] ProgressMeter -	6:37877000	12.5
+[PB Info 2025-Jan-21 10:41:54] ProgressMeter -	6:46338000	12.6
+[PB Info 2025-Jan-21 10:42:00] ProgressMeter -	6:55606000	12.7
+[PB Info 2025-Jan-21 10:42:06] ProgressMeter -	6:64741000	12.8
+[PB Info 2025-Jan-21 10:42:12] ProgressMeter -	6:74412000	12.9
+[PB Info 2025-Jan-21 10:42:18] ProgressMeter -	6:82782000	13.0
+[PB Info 2025-Jan-21 10:42:24] ProgressMeter -	6:91882000	13.1
+[PB Info 2025-Jan-21 10:42:30] ProgressMeter -	6:100247000	13.2
+[PB Info 2025-Jan-21 10:42:36] ProgressMeter -	6:109266000	13.3
+[PB Info 2025-Jan-21 10:42:42] ProgressMeter -	6:116903000	13.4
+[PB Info 2025-Jan-21 10:42:48] ProgressMeter -	6:126274000	13.5
+[PB Info 2025-Jan-21 10:42:54] ProgressMeter -	6:135805000	13.6
+[PB Info 2025-Jan-21 10:43:00] ProgressMeter -	7:3763000	13.7
+[PB Info 2025-Jan-21 10:43:06] ProgressMeter -	7:12569000	13.8
+[PB Info 2025-Jan-21 10:43:12] ProgressMeter -	7:20176000	13.9
+[PB Info 2025-Jan-21 10:43:18] ProgressMeter -	7:27682000	14.0
+[PB Info 2025-Jan-21 10:43:24] ProgressMeter -	7:35968000	14.1
+[PB Info 2025-Jan-21 10:43:30] ProgressMeter -	7:46542000	14.2
+[PB Info 2025-Jan-21 10:43:36] ProgressMeter -	7:61889000	14.3
+[PB Info 2025-Jan-21 10:43:42] ProgressMeter -	7:72833000	14.4
+[PB Info 2025-Jan-21 10:43:48] ProgressMeter -	7:81581000	14.5
+[PB Info 2025-Jan-21 10:43:54] ProgressMeter -	7:92816000	14.6
+[PB Info 2025-Jan-21 10:44:00] ProgressMeter -	7:102788000	14.7
+[PB Info 2025-Jan-21 10:44:06] ProgressMeter -	7:111614000	14.8
+[PB Info 2025-Jan-21 10:44:12] ProgressMeter -	7:119765000	14.9
+[PB Info 2025-Jan-21 10:44:18] ProgressMeter -	7:126356000	15.0
+[PB Info 2025-Jan-21 10:44:24] ProgressMeter -	7:133367000	15.1
+[PB Info 2025-Jan-21 10:44:30] ProgressMeter -	8:6414000	15.2
+[PB Info 2025-Jan-21 10:44:36] ProgressMeter -	8:14830000	15.3
+[PB Info 2025-Jan-21 10:44:42] ProgressMeter -	8:23375000	15.4
+[PB Info 2025-Jan-21 10:44:48] ProgressMeter -	8:32285000	15.5
+[PB Info 2025-Jan-21 10:44:54] ProgressMeter -	8:39722000	15.6
+[PB Info 2025-Jan-21 10:45:00] ProgressMeter -	8:47859000	15.7
+[PB Info 2025-Jan-21 10:45:06] ProgressMeter -	8:56805000	15.8
+[PB Info 2025-Jan-21 10:45:12] ProgressMeter -	8:65849000	15.9
+[PB Info 2025-Jan-21 10:45:18] ProgressMeter -	8:75599000	16.0
+[PB Info 2025-Jan-21 10:45:24] ProgressMeter -	8:83470000	16.1
+[PB Info 2025-Jan-21 10:45:30] ProgressMeter -	8:90707000	16.2
+[PB Info 2025-Jan-21 10:45:36] ProgressMeter -	8:99015000	16.3
+[PB Info 2025-Jan-21 10:45:42] ProgressMeter -	8:106549000	16.4
+[PB Info 2025-Jan-21 10:45:48] ProgressMeter -	8:114073000	16.5
+[PB Info 2025-Jan-21 10:45:54] ProgressMeter -	8:120565000	16.6
+[PB Info 2025-Jan-21 10:46:00] ProgressMeter -	9:2587000	16.7
+[PB Info 2025-Jan-21 10:46:06] ProgressMeter -	9:9855000	16.8
+[PB Info 2025-Jan-21 10:46:12] ProgressMeter -	9:17697000	16.9
+[PB Info 2025-Jan-21 10:46:18] ProgressMeter -	9:26320000	17.0
+[PB Info 2025-Jan-21 10:46:24] ProgressMeter -	9:35571000	17.1
+[PB Info 2025-Jan-21 10:46:30] ProgressMeter -	9:46057000	17.2
+[PB Info 2025-Jan-21 10:46:36] ProgressMeter -	9:54706000	17.3
+[PB Info 2025-Jan-21 10:46:42] ProgressMeter -	9:65226000	17.4
+[PB Info 2025-Jan-21 10:46:48] ProgressMeter -	9:79440000	17.5
+[PB Info 2025-Jan-21 10:46:54] ProgressMeter -	9:92458000	17.6
+[PB Info 2025-Jan-21 10:47:00] ProgressMeter -	9:102797000	17.7
+[PB Info 2025-Jan-21 10:47:06] ProgressMeter -	9:111659000	17.8
+[PB Info 2025-Jan-21 10:47:12] ProgressMeter -	10:5746000	17.9
+[PB Info 2025-Jan-21 10:47:18] ProgressMeter -	10:14139000	18.0
+[PB Info 2025-Jan-21 10:47:24] ProgressMeter -	10:22342000	18.1
+[PB Info 2025-Jan-21 10:47:30] ProgressMeter -	10:31119000	18.2
+[PB Info 2025-Jan-21 10:47:36] ProgressMeter -	10:39838000	18.3
+[PB Info 2025-Jan-21 10:47:42] ProgressMeter -	10:47697000	18.4
+[PB Info 2025-Jan-21 10:47:48] ProgressMeter -	10:58001000	18.5
+[PB Info 2025-Jan-21 10:47:54] ProgressMeter -	10:67605000	18.6
+[PB Info 2025-Jan-21 10:48:00] ProgressMeter -	10:77400000	18.7
+[PB Info 2025-Jan-21 10:48:06] ProgressMeter -	10:85735000	18.8
+[PB Info 2025-Jan-21 10:48:12] ProgressMeter -	10:96185000	18.9
+[PB Info 2025-Jan-21 10:48:18] ProgressMeter -	10:106349000	19.0
+[PB Info 2025-Jan-21 10:48:24] ProgressMeter -	11:9013000	19.1
+[PB Info 2025-Jan-21 10:48:30] ProgressMeter -	11:17330000	19.2
+[PB Info 2025-Jan-21 10:48:36] ProgressMeter -	11:25344000	19.3
+[PB Info 2025-Jan-21 10:48:42] ProgressMeter -	11:33501000	19.4
+[PB Info 2025-Jan-21 10:48:48] ProgressMeter -	11:42364000	19.5
+[PB Info 2025-Jan-21 10:48:54] ProgressMeter -	11:54771000	19.6
+[PB Info 2025-Jan-21 10:49:00] ProgressMeter -	11:65670000	19.7
+[PB Info 2025-Jan-21 10:49:06] ProgressMeter -	11:76040000	19.8
+[PB Info 2025-Jan-21 10:49:12] ProgressMeter -	12:323000	19.9
+[PB Info 2025-Jan-21 10:49:18] ProgressMeter -	12:7270000	20.0
+[PB Info 2025-Jan-21 10:49:24] ProgressMeter -	12:14283000	20.1
+[PB Info 2025-Jan-21 10:49:30] ProgressMeter -	12:19673000	20.2
+[PB Info 2025-Jan-21 10:49:36] ProgressMeter -	12:27516000	20.3
+[PB Info 2025-Jan-21 10:49:42] ProgressMeter -	12:33797000	20.4
+[PB Info 2025-Jan-21 10:49:48] ProgressMeter -	12:41284000	20.5
+[PB Info 2025-Jan-21 10:49:54] ProgressMeter -	13:5342000	20.6
+[PB Info 2025-Jan-21 10:50:00] ProgressMeter -	13:14036000	20.7
+[PB Info 2025-Jan-21 10:50:06] ProgressMeter -	13:19940000	20.8
+[PB Info 2025-Jan-21 10:50:12] ProgressMeter -	13:26491000	20.9
+[PB Info 2025-Jan-21 10:50:18] ProgressMeter -	13:32747000	21.0
+[PB Info 2025-Jan-21 10:50:24] ProgressMeter -	13:41678000	21.1
+[PB Info 2025-Jan-21 10:50:30] ProgressMeter -	13:49534000	21.2
+[PB Info 2025-Jan-21 10:50:36] ProgressMeter -	13:57330000	21.3
+[PB Info 2025-Jan-21 10:50:42] ProgressMeter -	13:68186000	21.4
+[PB Info 2025-Jan-21 10:50:48] ProgressMeter -	13:79067000	21.5
+[PB Info 2025-Jan-21 10:50:54] ProgressMeter -	13:91122000	21.6
+[PB Info 2025-Jan-21 10:51:00] ProgressMeter -	13:102088000	21.7
+[PB Info 2025-Jan-21 10:51:06] ProgressMeter -	14:3003000	21.8
+[PB Info 2025-Jan-21 10:51:12] ProgressMeter -	14:9217000	21.9
+[PB Info 2025-Jan-21 10:51:18] ProgressMeter -	14:16292000	22.0
+[PB Info 2025-Jan-21 10:51:24] ProgressMeter -	14:22699000	22.1
+[PB Info 2025-Jan-21 10:51:30] ProgressMeter -	14:30735000	22.2
+[PB Info 2025-Jan-21 10:51:36] ProgressMeter -	14:38356000	22.3
+[PB Info 2025-Jan-21 10:51:42] ProgressMeter -	14:46296000	22.4
+[PB Info 2025-Jan-21 10:51:48] ProgressMeter -	14:57107000	22.5
+[PB Info 2025-Jan-21 10:51:54] ProgressMeter -	14:67051000	22.6
+[PB Info 2025-Jan-21 10:52:00] ProgressMeter -	14:80530000	22.7
+[PB Info 2025-Jan-21 10:52:06] ProgressMeter -	14:90873000	22.8
+[PB Info 2025-Jan-21 10:52:12] ProgressMeter -	14:99217000	22.9
+[PB Info 2025-Jan-21 10:52:18] ProgressMeter -	15:3906000	23.0
+[PB Info 2025-Jan-21 10:52:24] ProgressMeter -	15:10225000	23.1
+[PB Info 2025-Jan-21 10:52:30] ProgressMeter -	15:17363000	23.2
+[PB Info 2025-Jan-21 10:52:36] ProgressMeter -	15:24495000	23.3
+[PB Info 2025-Jan-21 10:52:42] ProgressMeter -	15:35086000	23.4
+[PB Info 2025-Jan-21 10:52:48] ProgressMeter -	15:52211000	23.5
+[PB Info 2025-Jan-21 10:52:54] ProgressMeter -	15:65818000	23.6
+[PB Info 2025-Jan-21 10:53:00] ProgressMeter -	15:76018000	23.7
+[PB Info 2025-Jan-21 10:53:06] ProgressMeter -	15:86866000	23.8
+[PB Info 2025-Jan-21 10:53:12] ProgressMeter -	15:95516000	23.9
+[PB Info 2025-Jan-21 10:53:18] ProgressMeter -	16:2647000	24.0
+[PB Info 2025-Jan-21 10:53:24] ProgressMeter -	16:9251000	24.1
+[PB Info 2025-Jan-21 10:53:30] ProgressMeter -	16:15999000	24.2
+[PB Info 2025-Jan-21 10:53:36] ProgressMeter -	16:23092000	24.3
+[PB Info 2025-Jan-21 10:53:42] ProgressMeter -	16:33170000	24.4
+[PB Info 2025-Jan-21 10:53:48] ProgressMeter -	16:42767000	24.5
+[PB Info 2025-Jan-21 10:53:54] ProgressMeter -	16:54981000	24.6
+[PB Info 2025-Jan-21 10:54:00] ProgressMeter -	16:66975000	24.7
+[PB Info 2025-Jan-21 10:54:06] ProgressMeter -	16:77673000	24.8
+[PB Info 2025-Jan-21 10:54:12] ProgressMeter -	17:6917000	24.9
+[PB Info 2025-Jan-21 10:54:18] ProgressMeter -	17:15304000	25.0
+[PB Info 2025-Jan-21 10:54:24] ProgressMeter -	17:22593000	25.1
+[PB Info 2025-Jan-21 10:54:30] ProgressMeter -	17:30258000	25.2
+[PB Info 2025-Jan-21 10:54:36] ProgressMeter -	17:39039000	25.3
+[PB Info 2025-Jan-21 10:54:42] ProgressMeter -	17:47189000	25.4
+[PB Info 2025-Jan-21 10:54:48] ProgressMeter -	17:55640000	25.5
+[PB Info 2025-Jan-21 10:54:54] ProgressMeter -	17:65696000	25.6
+[PB Info 2025-Jan-21 10:55:00] ProgressMeter -	17:75120000	25.7
+[PB Info 2025-Jan-21 10:55:06] ProgressMeter -	17:83475000	25.8
+[PB Info 2025-Jan-21 10:55:12] ProgressMeter -	18:3950000	25.9
+[PB Info 2025-Jan-21 10:55:18] ProgressMeter -	18:14394000	26.0
+[PB Info 2025-Jan-21 10:55:24] ProgressMeter -	18:23639000	26.1
+[PB Info 2025-Jan-21 10:55:30] ProgressMeter -	18:32777000	26.2
+[PB Info 2025-Jan-21 10:55:36] ProgressMeter -	18:42982000	26.3
+[PB Info 2025-Jan-21 10:55:42] ProgressMeter -	18:51708000	26.4
+[PB Info 2025-Jan-21 10:55:48] ProgressMeter -	18:59680000	26.5
+[PB Info 2025-Jan-21 10:55:54] ProgressMeter -	18:69075000	26.6
+[PB Info 2025-Jan-21 10:56:00] ProgressMeter -	18:78604000	26.7
+[PB Info 2025-Jan-21 10:56:06] ProgressMeter -	19:6467000	26.8
+[PB Info 2025-Jan-21 10:56:12] ProgressMeter -	19:15144000	26.9
+[PB Info 2025-Jan-21 10:56:18] ProgressMeter -	19:22917000	27.0
+[PB Info 2025-Jan-21 10:56:24] ProgressMeter -	19:35309000	27.1
+[PB Info 2025-Jan-21 10:56:30] ProgressMeter -	19:44135000	27.2
+[PB Info 2025-Jan-21 10:56:36] ProgressMeter -	19:54079000	27.3
+[PB Info 2025-Jan-21 10:56:42] ProgressMeter -	20:2404000	27.4
+[PB Info 2025-Jan-21 10:56:48] ProgressMeter -	20:9625000	27.5
+[PB Info 2025-Jan-21 10:56:54] ProgressMeter -	20:18681000	27.6
+[PB Info 2025-Jan-21 10:57:00] ProgressMeter -	20:29015000	27.7
+[PB Info 2025-Jan-21 10:57:06] ProgressMeter -	20:37364000	27.8
+[PB Info 2025-Jan-21 10:57:12] ProgressMeter -	20:46584000	27.9
+[PB Info 2025-Jan-21 10:57:18] ProgressMeter -	X:1724000	28.0
+[PB Info 2025-Jan-21 10:57:24] ProgressMeter -	X:18321000	28.1
+[PB Info 2025-Jan-21 10:57:30] ProgressMeter -	X:32755000	28.2
+[PB Info 2025-Jan-21 10:57:36] ProgressMeter -	X:45516000	28.3
+[PB Info 2025-Jan-21 10:57:42] ProgressMeter -	X:65443000	28.4
+[PB Info 2025-Jan-21 10:57:48] ProgressMeter -	X:79533000	28.5
+[PB Info 2025-Jan-21 10:57:54] ProgressMeter -	X:96774000	28.6
+[PB Info 2025-Jan-21 10:58:00] ProgressMeter -	X:112631000	28.7
+[PB Info 2025-Jan-21 10:58:06] ProgressMeter -	X:125287000	28.8
+[PB Info 2025-Jan-21 10:58:12] ProgressMeter -	X:141854000	28.9
+[PB Info 2025-Jan-21 10:58:18] ProgressMeter -	Y:2430000	29.0
+[PB Info 2025-Jan-21 10:58:24] ProgressMeter -	Y:5026000	29.1
+[PB Info 2025-Jan-21 10:58:30] ProgressMeter -	Y:8339000	29.2
+[PB Info 2025-Jan-21 10:58:36] ProgressMeter -	Y:9827000	29.3
+[PB Info 2025-Jan-21 10:58:42] ProgressMeter -	Y:14231000	29.4
+[PB Info 2025-Jan-21 10:58:48] ProgressMeter -	Y:16777000	29.5
+[PB Info 2025-Jan-21 10:58:54] ProgressMeter -	MU150189.1:472000	29.6
+[PB Info 2025-Jan-21 10:59:00] ProgressMeter -	MU150195.1:431000	29.7
+[PB Info 2025-Jan-21 10:59:06] ProgressMeter -	MU150197.1:267000	29.8
+[PB Info 2025-Jan-21 10:59:12] ProgressMeter -	MU150199.1:180000	29.9
+[PB Info 2025-Jan-21 10:59:18] ProgressMeter -	MU150222.1:25000	30.0
+[PB Info 2025-Jan-21 10:59:24] ProgressMeter -	JACYVU010000597.1:28000	30.1
+[PB Info 2025-Jan-21 10:59:30] ProgressMeter -	JACYVU010000643.1:15000	30.2
+[PB Info 2025-Jan-21 10:59:36] Deepvariant is finished, total time is 1818.330 seconds
+[PB Info 2025-Jan-21 10:59:36] ------------------------------------------------------------------------------
+[PB Info 2025-Jan-21 10:59:36] ||        Program:                                       deepvariant        ||
+[PB Info 2025-Jan-21 10:59:36] ||        Version:                                           4.4.0-1        ||
+[PB Info 2025-Jan-21 10:59:36] ||        Start Time:                       Tue Jan 21 10:29:11 2025        ||
+[PB Info 2025-Jan-21 10:59:36] ||        End Time:                         Tue Jan 21 10:59:36 2025        ||
+[PB Info 2025-Jan-21 10:59:36] ||        Total Time:                          30 minutes 25 seconds        ||
+[PB Info 2025-Jan-21 10:59:36] ------------------------------------------------------------------------------
+/var/spool/slurmd/job20188/slurm_script: line 110: Tue: command not found

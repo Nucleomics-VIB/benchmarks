@@ -1,0 +1,18 @@
+Starting slurm_deepvariant_germline.sh job execution...
+Tue Jan 21 09:19:21 AM CET 2025
+JobID           JobName      State ExitCode    Elapsed    CPUTime   TotalCPU  ReqCPUS  AllocCPUS     AveRSS     MaxRSS     ReqMem  AveVMSize  MaxVMSize 
+------------ ---------- ---------- -------- ---------- ---------- ---------- -------- ---------- ---------- ---------- ---------- ---------- ---------- 
+20188        parabrick+    RUNNING      0:0   01:40:18 8-21:58:24  00:07.668      128        128                             512G                       
+20188.batch       batch    RUNNING      0:0   01:40:18 8-21:58:24   00:00:00      128        128                                                        
+20188.extern     extern    RUNNING      0:0   01:40:18 8-21:58:24   00:00:00      128        128                                                        
+20188.0      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.753      128        128     14784K     14784K                     0          0 
+20188.1      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.740      128        128     14036K     14036K                     0          0 
+20188.2      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.781      128        128     14628K     14628K                     0          0 
+20188.3      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.780      128        128     14188K     14188K                     0          0 
+20188.4      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.746      128        128     14368K     14368K                     0          0 
+20188.5      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.815      128        128     14076K     14076K                     0          0 
+20188.6      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.734      128        128     14024K     14024K                     0          0 
+20188.7            htop  COMPLETED      0:0   00:00:01   00:02:08  00:00.119      128        128      2696K      2696K                     0          0 
+20188.8      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.763      128        128     15992K     15992K                     0          0 
+20188.9      nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.680      128        128     14824K     14824K                     0          0 
+20188.10     nvidia-smi  COMPLETED      0:0   00:00:01   00:02:08  00:00.752      128        128     14028K     14028K                     0          0 

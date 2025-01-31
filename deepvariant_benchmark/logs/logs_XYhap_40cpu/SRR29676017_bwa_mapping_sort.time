@@ -1,0 +1,4 @@
+# bwa mem     -t 40     -K 10000000     -R "@RG\tID:SRR29676017\tLB:lib_SRR29676017\tPL:Illumina\tSM:SRR29676017\tPU:SRR29676017"     /data/NC_projects/4920_Spriem_ArgenX_rats/bwaidx/mRatBN7.2.fa     /data/NC_projects/4920_Spriem_ArgenX_rats/reads/SRR29676017_1.fq.gz /data/NC_projects/4920_Spriem_ArgenX_rats/reads/SRR29676017_2.fq.gz |       gatk SortSam       --java-options -Xmx64G       --MAX_RECORDS_IN_RAM 5000000       \
+#  --TMP_DIR /data/NC_projects/4920_Spriem_ArgenX_rats/tmpfiles       -I /dev/stdin       \
+#  -O /data/NC_projects/4920_Spriem_ArgenX_rats/mappings_40cpu/SRR29676017_cpu_qn.bam       --SORT_ORDER queryname
+Real time: 38194.953 seconds
