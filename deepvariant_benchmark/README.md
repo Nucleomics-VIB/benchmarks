@@ -134,7 +134,7 @@ Each command was timed and the total computing duration used to produce a summar
 In order to assess the real resource requirements during a typical Deepvariant analysis, we performed monitoring of the main metrics during the l40s run.
 The usage of CPU, RAM, GPU, and GPU average memory were obtained using the custom bash script **logUsageGPU.sh** and plotted to obtain the next figure.
 
-<img src="pictures/job_monitoring.png" alt="job_monitoring" width="600">
+<img src="pictures/job_monitoring.png" alt="job_monitoring" width="800">
 
 Results show that the mapping step is the most memory consuming of all and peaks at >100GB RAM usage (of the allocated 256GB). GPU is used at more than 50% in average during this period? while CPU is moderately used only (to feed the GPU probably).
 We did not monitor IO during this benchmark and think that it constitutes the next bottleneck of the system after the GPU.
