@@ -105,7 +105,7 @@ Time results extracted from the log files for the GPU Jobs
 | Marking Duplicates, BQSR       | 1034      | 705       | 562       | 415       | 435       | 431       | 44711     | 51300     |
 | deepvariant                    | 1825      | 929       | 678       | 690       | 1495      | 1247      | 38427     | 24054     |
 | total (sec)                    | 5929      | 3314      | 2615      | 2350      | 3275      | 2773      | 129642    | 109714    |
-| times slower than 4 x l40s GPU | 2.5       | 1.4       | 1.1       | 1.0       | 1.4       | 1.2       | 55.2      | 46.7      |
+| times slower than 4 x l40s GPU | 2.5       | 1.4       | 1.1       | 1.0 (ref) | 1.4       | 1.2       | 55.2      | 46.7      |
 ```
 
 Time results for the CPU runs
