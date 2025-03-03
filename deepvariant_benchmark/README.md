@@ -95,7 +95,7 @@ Time results extracted from the log files for the GPU Jobs
 * gpu_h100_64C_128T_2TB_co_pi
 
 ```
-|                                        | l40s      | l40s      | l40s      | l40s      | a100      | h100      | Chicken   | r730      |
+|                                        | l40s      | l40s      | l40s      | l40s      | a100      | h100      | SM-7048GR | Dell-r730 |
 |----------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | jobID (datacore)                       | 20188     | 20189     | 20190     | 20266     | 20273     | 20276     | #NA       | #NA       |
 | nGPU (Nvidia L40s)                     | 1         | 2         | 3         | 4         | 4         | 4         | 0         | 0         |
@@ -110,7 +110,7 @@ Time results extracted from the log files for the GPU Jobs
 
 Time results for the CPU runs
 
-* Chicken 256GB RAM, 48 threads (40 used; Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz)
+* Supermicro SYS-7048GR-TR 256GB RAM, 48 threads (40 used; Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz)
 * Dell R730 512GB RAM, 88 threads (80 used; Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz)
 
 ```
