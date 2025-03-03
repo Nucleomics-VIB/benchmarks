@@ -141,6 +141,8 @@ We did not monitor IO during this benchmark and think that it constitutes the ne
 
 It is lkely that using high performance SSD disks rather than the Compute node storage could slightly improve this already very optimized system but is not really required given the already spectacular benefit of GPU processing over the conventional CPU-only workflow.
 
+NOTE: We have no valid explanation why the higher-end A100 and h100 cards were outperformed by the lower-end l40s card. It is possible that software optimization of the Deepvariant pipeline benefits from unique features of the latter buut we cannot provide more evidence in that regard.
+
 ## Conclusion
 
 The use of even one GPU card is extremely beneficial to save a considerable amount of time in variant analysis which is a very time consuming task.
