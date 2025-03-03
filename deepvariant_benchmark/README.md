@@ -145,10 +145,10 @@ NOTE: We have no valid explanation why the higher-end A100 and h100 cards were o
 
 ## Conclusion
 
-The use of even one GPU card is extremely beneficial to save a considerable amount of time in variant analysis which is a very time consuming task.
-Using more GPU units further decreased the runtime but not to a significant extend, suggesting a bottleneck at the IO level.
+The use of as little as one single GPU card saves a considerable amount of time in variant analysis which is a well known very time consuming task.
+Using more GPU units further decreased the runtime in a non linear manner, suggesting a bottleneck at the IO level.
 
-The availability of such GPU cards at the VIB Data Core makes it amendable to future projects if the availability and cost associated with the use of the Data Core infrastructures are compatible with our model.
+The availability of such GPU cards at the **VIB Data Core** makes it amendable to future projects if the availability and cost associated with the use of the Data Core infrastructures are compatible with our model.
 
 <hr>
 
