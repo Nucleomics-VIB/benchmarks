@@ -129,6 +129,12 @@ Each command was timed and the total computing duration used to produce a summar
 
 <img src="pictures/deepvariant_results.png" alt="deepvariant_results" width="600">
 
+## Job monitoring
+
+In order to assess the real resource requirements during a typical Deepvariant analysis, we performed monitoring of the main metrics during the l40s run.
+The usage of CPU, RAM, GPU, and GPU average memory were obtained using the custom bash script **logUsageGPU.sh** and plotted to obtain the next figure.
+
+<img src="pictures/job_monitoring.png" alt="job_monitoring" width="600">
 
 ## Conclusion
 
