@@ -136,9 +136,14 @@ The usage of CPU, RAM, GPU, and GPU average memory were obtained using the custo
 
 <img src="pictures/job_monitoring.png" alt="job_monitoring" width="600">
 
+Results show that the mapping step is the most memory consuming of all and peaks at >100GB RAM usage (of the allocated 256GB). GPU is used at more than 50% in average during this period? while CPU is moderately used only (to feed the GPU probably).
+We did not monitor IO during this benchmark and think that it constitutes the next bottleneck of the system after the GPU.
+
+It is lkely that using high performance SSD disks rather than the Compute node storage could slightly improve this already very optimized system but is not really required given the already spectacular benefit of GPU processing over the conventional CPU-only workflow.
+
 ## Conclusion
 
-The use of even one GPU card is very beneficial to save a considerable amount of time in variant analysis which is a very time consuming task.
+The use of even one GPU card is extremely beneficial to save a considerable amount of time in variant analysis which is a very time consuming task.
 Using more GPU units further decreased the runtime but not to a significant extend, suggesting a bottleneck at the IO level.
 
 The availability of such GPU cards at the VIB Data Core makes it amendable to future projects if the availability and cost associated with the use of the Data Core infrastructures are compatible with our model.
