@@ -127,7 +127,7 @@ Time results for the CPU runs
 
 Each command was timed and the total computing duration used to produce a summary plot shown below.
 
-<img src="pictures/deepvariant_results.png" alt="deepvariant_results" width="600">
+<img src="pictures/deepvariant_results.png" alt="deepvariant_results" width="1000">
 
 ## Job monitoring
 
