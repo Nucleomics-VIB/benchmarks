@@ -16,6 +16,19 @@ Run fastp in increasing number of threads (1..8) and time the process. Define th
 
 ## Results
 
+The commands were run on 1OM reads (see script).
+
+| threads | time (sec) | speedup (x) |
+|---------|------------|-------------|
+| 1       | 167.43     | 1.00        |
+| 2       | 87.97      | 1.90        |
+| 3       | 60.07      | 2.79        |
+| 4       | 52.53      | 3.19        |
+| 5       | 53.19      | 3.15        |
+| 6       | 54.52      | 3.07        |
+| 7       | 52.15      | 3.21        |
+| 8       | 52.95      | 3.16        |
+
 <img src="pictures/fastp_times.png" alt="fastp_times" width="600">
 <img src="pictures/fastp_speedup.png" alt="fastp_speedup" width="600">
 
