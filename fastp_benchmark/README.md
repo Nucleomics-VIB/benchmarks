@@ -16,8 +16,8 @@ Run fastp in increasing number of threads (1..8) and time the process. Define th
 
 ## Results
 
-<img src="pictures/fastp_times.png" alt="fastp_times" width="1000">
-<img src="pictures/fastp_speedup.png" alt="fastp_speedup" width="1000">
+<img src="pictures/fastp_times.png" alt="fastp_times" width="600">
+<img src="pictures/fastp_speedup.png" alt="fastp_speedup" width="600">
 
 ## Conclusion
 
