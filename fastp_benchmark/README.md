@@ -1,6 +1,6 @@
 [(Nucleomics-VIB)](https://github.com/Nucleomics-VIB)
 
-Benchmark for fastq (v1.24) on paired Aviti reads
+Benchmark for fastp (v1.24) on paired Aviti reads
 ==========
 
 ## Data Availability 
