@@ -8,9 +8,9 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --time=0-08:00:00
 #SBATCH --mem=512G
-#SBATCH --account=s04
+#SBATCH --account=${SLURM_ACCOUNT}
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu_l40s_64C_128T_1TB
+#SBATCH --partition=${SLURM_PARTITION}
 
 # Aim: run the NVidia clara parabricks deepvariant_germline (v4.4.0) on 1 sample read pair
 # script: slurm_deepvariant_germline.sh

@@ -8,9 +8,9 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --time=0-02:00:00
 #SBATCH --mem=256G
-#SBATCH --account=s04
+#SBATCH --account=${SLURM_ACCOUNT}
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu_a100_48C_96T_512GB
+#SBATCH --partition=${SLURM_PARTITION}
 
 # gpu_l40s_64C_128T_1TB
 # gpu_h100_64C_128T_2TB
