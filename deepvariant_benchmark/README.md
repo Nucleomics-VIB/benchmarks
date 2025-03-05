@@ -43,7 +43,7 @@ The produced script is:
 
 Several runs on the Data Core infrastructure (first interactive runs then, when this was optimized, queued jobs)
 
-The SLURM parameters used in the job submission were as follows (sensitive data replaced by ***):
+The SLURM parameters used in the job submission were as follows (sensitive data replaced by ENV variables):
 
 ```
 l40s
@@ -55,9 +55,10 @@ l40s
 #SBATCH --cpus-per-task=4
 #SBATCH --time=0-08:00:00
 #SBATCH --mem=512G
-#SBATCH --account=***
+#SBATCH --account=${SLURM_ACCOUNT}
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu_l40s_64C_128T_1TB
+#SBATCH --partition=${SLURM_PARTITION}
+
 a100
 #SBATCH --job-name="parabricks_deepvariant_germline"
 #SBATCH --output="%x_%j.out"
@@ -67,9 +68,10 @@ a100
 #SBATCH --cpus-per-task=4
 #SBATCH --time=0-02:00:00
 #SBATCH --mem=256G
-#SBATCH --account=***
+#SBATCH --account=${SLURM_ACCOUNT}
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu_a100_48C_96T_512GB
+#SBATCH --partition=${SLURM_PARTITION}
+
 h100
 #SBATCH --job-name="parabricks_deepvariant_germline"
 #SBATCH --output="%x_%j.out"
@@ -79,9 +81,9 @@ h100
 #SBATCH --cpus-per-task=4
 #SBATCH --time=0-02:00:00
 #SBATCH --mem=256G
-#SBATCH --account=***
+#SBATCH --account=${SLURM_ACCOUNT}
 #SBATCH --gres=gpu:4
-#SBATCH --partition=gpu_h100_64C_128T_2TB_co_pi
+#SBATCH --partition=${SLURM_PARTITION}
 ```
 
 For the l40s, four jobs were run allocating all 4 cards but using 1..4 of the present GPU units as detailed in the table below. 
@@ -89,10 +91,6 @@ For the l40s, four jobs were run allocating all 4 cards but using 1..4 of the pr
 For other GPU, all 4 cards were allocated and used.
 
 Time results extracted from the log files for the GPU Jobs
-
-* gpu_l40s_64C_128T_1TB
-* gpu_a100_48C_96T_512GB
-* gpu_h100_64C_128T_2TB_co_pi
 
 ```
 |                                | l40s      | l40s      | l40s      | l40s      | a100      | h100      | SM-7048GR | Dell-r730 |
