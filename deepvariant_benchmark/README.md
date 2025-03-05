@@ -19,10 +19,10 @@ Read data was used without pre-processing as the aim of this analysis is to comp
 ## Usage
 
 Several scripts were written to perform a full variant calling workflow either using the local CPU on two **[VIB Nucleomics Core](https://nucleomicscore.sites.vib.be/en)** servers OR using the NVidia GPU cards present in several **[VIB Data Core](https://datacore.sites.vib.be/en)** nodes.
-The scripts are included in this repo and can be tuned to further improve them (adapting for instance the existing nextflow workflow instead of bash scripts)
+The final scripts are included in this repo and can be tuned to further improve them (adapting for instance the existing nextflow workflow instead of bash scripts)
 
 The GPU code was adapted from the published **[NVidia Clara Parabricks code documentation](https://www.nvidia.com/en-us/clara/genomics/)**.
-The Nvidia l40s was out target card but the presence of two more expensive cards (h100 and a100) led us to also test these as well.
+The Nvidia l40s was our target card but the presence of two more expensive cards (h100 and a100) led us to test these as well.
 
 The produced scripts are the following:
 
@@ -139,7 +139,7 @@ The usage of CPU, RAM, GPU, and GPU average memory were obtained using the custo
 Results show that the mapping step is the most memory consuming of all and peaks at >100GB RAM usage (of the allocated 256GB). GPU is used at more than 50% in average during this period? while CPU is moderately used only (to feed the GPU probably).
 We did not monitor IO during this benchmark and think that it constitutes the next bottleneck of the system after the GPU.
 
-It is lkely that using high performance SSD disks rather than the Compute node storage could slightly improve this already very optimized system but is not really required given the already spectacular benefit of GPU processing over the conventional CPU-only workflow.
+It is likely that using high performance SSD disks rather than the Compute node storage could slightly improve this already very optimized system but is not really required given the already spectacular benefit of GPU processing over the conventional CPU-only workflow.
 
 NOTE: We have no valid explanation why the higher-end A100 and h100 cards were outperformed by the lower-end l40s card. It is possible that software optimization of the Deepvariant pipeline benefits from unique features of the latter but we cannot provide more evidence in that regard.
 
