@@ -46,6 +46,13 @@ Several runs on the Data Core infrastructure (first interactive runs then, when 
 The SLURM parameters used in the job submission were as follows (sensitive data replaced by ENV variables):
 
 ```
+the list of available nodes is obtained with: sinfo --summarize
+export SLURM_ACCOUNT=<your account>
+export SLURM_PARTITION=<one of the listed node>
+# then run the script
+```
+
+```
 l40s
 #SBATCH --job-name="parabricks_deepvariant_germline"
 #SBATCH --output="%x_%j.out"
