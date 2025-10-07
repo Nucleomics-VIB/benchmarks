@@ -135,6 +135,12 @@ test_colors <- c(
 # ------------------------
 cat("\nGenerating matrix plot layout (Source × Destination)...\n")
 
+# Calculate global max rate for consistent y-axis scaling
+global_max_rate <- max(data$Rate_MBps[!data$has_na], na.rm = TRUE)
+if (!is.finite(global_max_rate)) global_max_rate <- 100
+
+cat(sprintf("Using global y-axis max: %.0f MB/s\n", global_max_rate))
+
 plot_list <- list()
 plot_idx <- 1
 
@@ -159,15 +165,11 @@ for (src in sources) {
         has_na = ifelse(is.na(has_na), TRUE, has_na)
       )
     
-    # Calculate max rate for y-axis scaling
-    max_rate <- max(pair_data$Rate_MBps[!pair_data$has_na], na.rm = TRUE)
-    if (!is.finite(max_rate)) max_rate <- 100
-    
-    # Create labels: show rate value or "NA"
+    # Create labels: show rate value or "NA" (using global max for positioning)
     pair_data <- pair_data %>%
       mutate(
         label_text = ifelse(has_na, "NA", sprintf("%.0f", Rate_MBps)),
-        label_y = ifelse(has_na, max_rate * 0.05, Rate_MBps),
+        label_y = ifelse(has_na, global_max_rate * 0.05, Rate_MBps),
         label_vjust = ifelse(has_na, 0, -0.3)
       )
     
@@ -192,7 +194,7 @@ for (src in sources) {
         panel.grid.major.x = element_blank(),
         plot.margin = unit(c(0.3, 0.3, 0.3, 0.3), "cm")
       ) +
-      scale_y_continuous(expand = expansion(mult = c(0, 0.15)))
+      scale_y_continuous(limits = c(0, global_max_rate * 1.15), expand = expansion(mult = c(0, 0)))
     
     plot_list[[plot_idx]] <- p
     plot_idx <- plot_idx + 1
