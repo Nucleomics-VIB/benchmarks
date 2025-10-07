@@ -6,6 +6,8 @@ Comprehensive storage performance benchmarking tool for testing read/write speed
 
 This benchmark suite tests file transfer performance between different storage systems (HDD, SSD, network shares) using various file sizes and patterns. The tool measures actual file copy operations and reports transfer rates in MB/s.
 
+<img src="pictures/storage_matrix.png" width="800" alt="Storage Speed Test Matrix">
+
 ## Components
 
 - **`storage_speed_test.sh`** - Main bash script that runs the benchmark tests
