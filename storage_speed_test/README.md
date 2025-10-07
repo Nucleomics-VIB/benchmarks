@@ -8,6 +8,8 @@ This benchmark suite tests file transfer performance between different storage s
 
 <img src="pictures/storage_matrix.png" width="800" alt="Storage Speed Test Matrix">
 
+**Note about NA values:** NA (Not Available) appears when file transfers complete in less than 1 second. The timing granularity is insufficient to compute an accurate transfer rate. This typically occurs with small files (50MB) on fast storage, cached transfers, or same-source-destination copies on fast media. NA values are displayed in plots and excluded from statistical calculations.
+
 ## Components
 
 - **`storage_speed_test.sh`** - Main bash script that runs the benchmark tests
@@ -141,16 +143,6 @@ Typical performance ranges:
 - Local SSD → SSD: 200-500 MB/s
 - Local HDD → HDD: 80-150 MB/s
 - Network shares: 10-120 MB/s
-
-### NA Values
-
-**NA (Not Available)** appears when file transfers complete in less than 1 second. The timing granularity is insufficient to compute an accurate transfer rate. This typically occurs with:
-
-- Small files (50MB) on fast storage
-- Cached transfers
-- Same-source-destination copies on fast media
-
-NA values are displayed in plots and excluded from statistical calculations.
 
 ## Output Files
 
