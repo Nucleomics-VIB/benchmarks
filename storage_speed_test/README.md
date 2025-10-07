@@ -4,7 +4,7 @@ Comprehensive storage performance benchmarking tool for testing read/write speed
 
 ## Overview
 
-This benchmark suite tests file transfer performance between different storage systems (HDD, SSD, network shares) using various file sizes and patterns. The tool measures actual file copy operations and reports transfer rates in MB/s.
+This benchmark suite tests file transfer performance between different storage systems (HDD, SSD, Synology network shares) using various file sizes and patterns. The tool measures actual file copy operations and reports transfer rates in MB/s.
 
 ### Transfer rates between the four mount points on NUC5
 
@@ -135,6 +135,7 @@ The script generates short names from mount paths:
 - `/mnt/ssd_storage` → `nuc5_ssd`
 - `/mnt/syn_hdd` → `syn_hdd`
 - `/mnt/syn_ssd` → `syn_ssd`
+- `/mnt/nuc-data/Team` → `nuc-data`
 
 ## Metrics
 

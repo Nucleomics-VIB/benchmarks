@@ -22,6 +22,7 @@ MOUNTS=(
     "/mnt/ssd_storage"
     "/mnt/syn_hdd"
     "/mnt/syn_ssd"
+    "/mnt/nuc-data/Team"
 )
 
 # Test configuration
@@ -231,6 +232,7 @@ get_short_mount_name() {
         "ssd_storage") echo "nuc5_ssd" ;;
         "syn_hdd") echo "syn_hdd" ;;
         "syn_ssd") echo "syn_ssd" ;;
+        "Team") echo "nuc-data" ;;
         *) echo "$name" ;;
     esac
 }
