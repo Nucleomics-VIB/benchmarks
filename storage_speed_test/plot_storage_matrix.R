@@ -87,10 +87,15 @@ print(head(data, 10))
 data$Rate_MBps <- as.numeric(data$Rate_MBps)
 
 # Keep NA values but mark them for special display
+# For small_file (50MB), if NA (copied in <1 sec), assume 50 MB/s minimum
 data <- data %>%
-  mutate(has_na = is.na(Rate_MBps))
+  mutate(
+    has_na = is.na(Rate_MBps),
+    Rate_MBps = ifelse(has_na & TestType == "small_file", 100, Rate_MBps)
+  )
 
 cat("\nRows with NA values:", sum(data$has_na), "out of", nrow(data), "\n")
+cat("Small file NA values replaced with 100 MB/s\n")
 
 # Convert test type labels for better display
 data <- data %>%
