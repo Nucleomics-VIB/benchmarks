@@ -1,0 +1,207 @@
+[0;34m================================[0m
+[0;34m    Storage Speed Test Tool     [0m
+[0;34m================================[0m
+
+[0;32m[INFO][0m Test data already exists in /home/luna.kuleuven.be/u0002316/Desktop/test_data, skipping creation
+[0;32m[INFO][0m Checking mount points...
+[0;32m[INFO][0m ✓ /mnt/hdd_storage is accessible
+[0;32m[INFO][0m ✓ /mnt/ssd_storage is accessible
+[1;37m[WARN][0m ✗ /mnt/syn_hdd exists but is not writable (trying to create test dir anyway)
+[0;32m[INFO][0m ✓ /mnt/syn_hdd - successfully created test directory
+[1;37m[WARN][0m ✗ /mnt/syn_ssd exists but is not writable (trying to create test dir anyway)
+[0;32m[INFO][0m ✓ /mnt/syn_ssd - successfully created test directory
+[0;32m[INFO][0m Found 4 accessible mount points
+
+[0;32m[INFO][0m Creating speedtest directories...
+[0;32m[INFO][0m Created directories: /mnt/hdd_storage/speedtest_source and /mnt/hdd_storage/speedtest_dest
+[0;32m[INFO][0m Created directories: /mnt/ssd_storage/speedtest_source and /mnt/ssd_storage/speedtest_dest
+[0;32m[INFO][0m Created directories: /mnt/syn_hdd/speedtest_source and /mnt/syn_hdd/speedtest_dest
+[0;32m[INFO][0m Created directories: /mnt/syn_ssd/speedtest_source and /mnt/syn_ssd/speedtest_dest
+
+[0;32m[INFO][0m Initialized CSV file: /home/luna.kuleuven.be/u0002316/Desktop/speed_test_results_20251007_143033.csv
+[0;32m[INFO][0m Starting comprehensive speed tests...
+
+[0;32m[INFO][0m Copying test data to /mnt/hdd_storage/speedtest_source...
+[1;37mTesting: /mnt/hdd_storage → /mnt/hdd_storage[0m
+[0;32m[INFO][0m Testing: small_file (nuc5_hdd → nuc5_hdd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (nuc5_hdd → nuc5_hdd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (nuc5_hdd → nuc5_hdd)
+  Time: 4 seconds, Rate: 1280.00 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (nuc5_hdd → nuc5_hdd)
+  Time: 1 seconds, Rate: 1465.15 MB/s, Size: 1536327680 bytes
+
+[1;37mTesting: /mnt/hdd_storage → /mnt/ssd_storage[0m
+[0;32m[INFO][0m Testing: small_file (nuc5_hdd → nuc5_ssd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (nuc5_hdd → nuc5_ssd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (nuc5_hdd → nuc5_ssd)
+  Time: 4 seconds, Rate: 1280.00 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (nuc5_hdd → nuc5_ssd)
+  Time: 1 seconds, Rate: 1465.15 MB/s, Size: 1536327680 bytes
+
+[1;37mTesting: /mnt/hdd_storage → /mnt/syn_hdd[0m
+[0;32m[INFO][0m Testing: small_file (nuc5_hdd → syn_hdd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (nuc5_hdd → syn_hdd)
+  Time: 2 seconds, Rate: 512.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (nuc5_hdd → syn_hdd)
+  Time: 9 seconds, Rate: 568.88 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (nuc5_hdd → syn_hdd)
+  Time: 35 seconds, Rate: 41.86 MB/s, Size: 1536327680 bytes
+
+[1;37mTesting: /mnt/hdd_storage → /mnt/syn_ssd[0m
+[0;32m[INFO][0m Testing: small_file (nuc5_hdd → syn_ssd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (nuc5_hdd → syn_ssd)
+  Time: 2 seconds, Rate: 512.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (nuc5_hdd → syn_ssd)
+  Time: 9 seconds, Rate: 568.88 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (nuc5_hdd → syn_ssd)
+  Time: 36 seconds, Rate: 40.69 MB/s, Size: 1536327680 bytes
+
+[0;32m[INFO][0m Copying test data to /mnt/ssd_storage/speedtest_source...
+[1;37mTesting: /mnt/ssd_storage → /mnt/hdd_storage[0m
+[0;32m[INFO][0m Testing: small_file (nuc5_ssd → nuc5_hdd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (nuc5_ssd → nuc5_hdd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (nuc5_ssd → nuc5_hdd)
+  Time: 3 seconds, Rate: 1706.66 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (nuc5_ssd → nuc5_hdd)
+  Time: 2 seconds, Rate: 732.58 MB/s, Size: 1536352256 bytes
+
+[1;37mTesting: /mnt/ssd_storage → /mnt/ssd_storage[0m
+[0;32m[INFO][0m Testing: small_file (nuc5_ssd → nuc5_ssd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (nuc5_ssd → nuc5_ssd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (nuc5_ssd → nuc5_ssd)
+  Time: 3 seconds, Rate: 1706.66 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (nuc5_ssd → nuc5_ssd)
+  Time: 1 seconds, Rate: 1465.17 MB/s, Size: 1536352256 bytes
+
+[1;37mTesting: /mnt/ssd_storage → /mnt/syn_hdd[0m
+[0;32m[INFO][0m Testing: small_file (nuc5_ssd → syn_hdd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (nuc5_ssd → syn_hdd)
+  Time: 2 seconds, Rate: 512.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (nuc5_ssd → syn_hdd)
+  Time: 8 seconds, Rate: 640.00 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (nuc5_ssd → syn_hdd)
+  Time: 35 seconds, Rate: 41.86 MB/s, Size: 1536352256 bytes
+
+[1;37mTesting: /mnt/ssd_storage → /mnt/syn_ssd[0m
+[0;32m[INFO][0m Testing: small_file (nuc5_ssd → syn_ssd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (nuc5_ssd → syn_ssd)
+  Time: 2 seconds, Rate: 512.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (nuc5_ssd → syn_ssd)
+  Time: 8 seconds, Rate: 640.00 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (nuc5_ssd → syn_ssd)
+  Time: 35 seconds, Rate: 41.86 MB/s, Size: 1536352256 bytes
+
+[0;32m[INFO][0m Copying test data to /mnt/syn_hdd/speedtest_source...
+[1;37mTesting: /mnt/syn_hdd → /mnt/hdd_storage[0m
+[0;32m[INFO][0m Testing: small_file (syn_hdd → nuc5_hdd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (syn_hdd → nuc5_hdd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (syn_hdd → nuc5_hdd)
+  Time: 4 seconds, Rate: 1280.00 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (syn_hdd → nuc5_hdd)
+  Time: 22 seconds, Rate: 66.59 MB/s, Size: 1536257788 bytes
+
+[1;37mTesting: /mnt/syn_hdd → /mnt/ssd_storage[0m
+[0;32m[INFO][0m Testing: small_file (syn_hdd → nuc5_ssd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (syn_hdd → nuc5_ssd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (syn_hdd → nuc5_ssd)
+  Time: 5 seconds, Rate: 1024.00 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (syn_hdd → nuc5_ssd)
+  Time: 17 seconds, Rate: 86.18 MB/s, Size: 1536257788 bytes
+
+[1;37mTesting: /mnt/syn_hdd → /mnt/syn_hdd[0m
+[0;32m[INFO][0m Testing: small_file (syn_hdd → syn_hdd)
+  Time: 1 seconds, Rate: 50.00 MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (syn_hdd → syn_hdd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (syn_hdd → syn_hdd)
+  Time: 8 seconds, Rate: 640.00 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (syn_hdd → syn_hdd)
+  Time: 45 seconds, Rate: 32.55 MB/s, Size: 1536257788 bytes
+
+[1;37mTesting: /mnt/syn_hdd → /mnt/syn_ssd[0m
+[0;32m[INFO][0m Testing: small_file (syn_hdd → syn_ssd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (syn_hdd → syn_ssd)
+  Time: 2 seconds, Rate: 512.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (syn_hdd → syn_ssd)
+  Time: 9 seconds, Rate: 568.88 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (syn_hdd → syn_ssd)
+  Time: 45 seconds, Rate: 32.55 MB/s, Size: 1536257788 bytes
+
+[0;32m[INFO][0m Copying test data to /mnt/syn_ssd/speedtest_source...
+[1;37mTesting: /mnt/syn_ssd → /mnt/hdd_storage[0m
+[0;32m[INFO][0m Testing: small_file (syn_ssd → nuc5_hdd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (syn_ssd → nuc5_hdd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (syn_ssd → nuc5_hdd)
+  Time: 3 seconds, Rate: 1706.66 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (syn_ssd → nuc5_hdd)
+  Time: 18 seconds, Rate: 81.39 MB/s, Size: 1536257788 bytes
+
+[1;37mTesting: /mnt/syn_ssd → /mnt/ssd_storage[0m
+[0;32m[INFO][0m Testing: small_file (syn_ssd → nuc5_ssd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (syn_ssd → nuc5_ssd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (syn_ssd → nuc5_ssd)
+  Time: 3 seconds, Rate: 1706.66 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (syn_ssd → nuc5_ssd)
+  Time: 17 seconds, Rate: 86.18 MB/s, Size: 1536257788 bytes
+
+[1;37mTesting: /mnt/syn_ssd → /mnt/syn_hdd[0m
+[0;32m[INFO][0m Testing: small_file (syn_ssd → syn_hdd)
+  Time: 0 seconds, Rate: N/A MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (syn_ssd → syn_hdd)
+  Time: 2 seconds, Rate: 512.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (syn_ssd → syn_hdd)
+  Time: 9 seconds, Rate: 568.88 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (syn_ssd → syn_hdd)
+  Time: 45 seconds, Rate: 32.55 MB/s, Size: 1536257788 bytes
+
+[1;37mTesting: /mnt/syn_ssd → /mnt/syn_ssd[0m
+[0;32m[INFO][0m Testing: small_file (syn_ssd → syn_ssd)
+  Time: 1 seconds, Rate: 50.00 MB/s, Size: 52428800 bytes
+[0;32m[INFO][0m Testing: large_file (syn_ssd → syn_ssd)
+  Time: 1 seconds, Rate: 1024.00 MB/s, Size: 1073741824 bytes
+[0;32m[INFO][0m Testing: huge_file (syn_ssd → syn_ssd)
+  Time: 8 seconds, Rate: 640.00 MB/s, Size: 5368709120 bytes
+[0;32m[INFO][0m Testing: many_small_files (syn_ssd → syn_ssd)
+  Time: 46 seconds, Rate: 31.84 MB/s, Size: 1536257788 bytes
+
+[0;32m[INFO][0m Generating results report...
+[0;32m[INFO][0m CSV results saved to: /home/luna.kuleuven.be/u0002316/Desktop/speed_test_results_20251007_143033.csv
+[0;32m[INFO][0m Results saved to: /home/luna.kuleuven.be/u0002316/Desktop/speed_test_results_20251007_143033.txt
+
+[0;32mTest Summary:[0m
+Fastest operation: [0;32msyn_ssd|nuc5_hdd|huge_file[0m ([0;32m1706.66 MB/s[0m)
+Slowest operation: [0;31msyn_ssd|syn_ssd|many_small_files[0m ([0;31m31.84 MB/s[0m)
+
+[0;34mTo generate plots, run:[0m Rscript plot_storage_results.R /home/luna.kuleuven.be/u0002316/Desktop/speed_test_results_20251007_143033.csv
+[0;32m[INFO][0m Cleaning up test directories...
+[0;32m[INFO][0m Removed: /mnt/hdd_storage/speedtest_source
+[0;32m[INFO][0m Removed: /mnt/hdd_storage/speedtest_dest
+[0;32m[INFO][0m Removed: /mnt/ssd_storage/speedtest_source
+[0;32m[INFO][0m Removed: /mnt/ssd_storage/speedtest_dest
+[0;32m[INFO][0m Removed: /mnt/syn_hdd/speedtest_source
+[0;32m[INFO][0m Removed: /mnt/syn_hdd/speedtest_dest
+[0;32m[INFO][0m Removed: /mnt/syn_ssd/speedtest_source
+[0;32m[INFO][0m Removed: /mnt/syn_ssd/speedtest_dest
+[0;32m[INFO][0m Speed test completed successfully!
+[0;32m[INFO][0m Cleaning up test directories...
