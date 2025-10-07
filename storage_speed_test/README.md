@@ -10,6 +10,8 @@ This benchmark suite tests file transfer performance between different storage s
 
 **Note about NA values:** NA (Not Available) appears when file transfers complete in less than 1 second. The timing granularity is insufficient to compute an accurate transfer rate. This typically occurs with small files (50MB) on fast storage, cached transfers, or same-source-destination copies on fast media. NA values are displayed in plots and excluded from statistical calculations.
 
+**Note:** The lower transfer rate when considering the folder with many small files is due to the overhead of handling many small operations. Such situation can be mitigated by creating a tar archive and tansfering it as a single file.
+
 ## Components
 
 - **`storage_speed_test.sh`** - Main bash script that runs the benchmark tests
