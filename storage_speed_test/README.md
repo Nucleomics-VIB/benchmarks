@@ -4,11 +4,11 @@ Comprehensive storage performance benchmarking tool for testing read/write speed
 
 ## Overview
 
-This benchmark suite tests file transfer performance between different storage systems (HDD, SSD, Synology network shares) using various file sizes and patterns. The tool measures actual file copy operations and reports transfer rates in MB/s.
+This benchmark suite tests file transfer performance between different storage systems (HDD, SSD, Synology network shares, KUL LVS (nuc-data)) using various file sizes and patterns. The tool measures actual file copy operations and reports transfer rates in MB/s.
 
 ### Transfer rates between the four mount points on NUC5
 
-<img src="pictures/storage_matrix.png" width="800" alt="Storage Speed Test Matrix">
+<img src="pictures/storage_matrix.png" width="1200" alt="Storage Speed Test Matrix">
 
 **Note about NA values:** NA (Not Available) appears when file transfers complete in less than 1 second. The timing granularity is insufficient to compute an accurate transfer rate. This typically occurs with small files (50MB) on fast storage, cached transfers, or same-source-destination copies on fast media. In the plots, small file NA values are replaced with 100 MB/s (representing a transfer completed in less than 1 second) for better visualization.
 
@@ -52,6 +52,7 @@ MOUNTS=(
     "/mnt/ssd_storage"
     "/mnt/syn_hdd"
     "/mnt/syn_ssd"
+    "/mnt/nuc-data/Team"
 )
 ```
 
