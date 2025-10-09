@@ -1,0 +1,126 @@
+Storage Speed Test Results
+==========================
+Test Date: Tue 07 Oct 2025 04:21:13 PM CEST
+Test Configuration:
+  Small file size: 50M
+  Large file size: 1G
+  Huge file size: 5G
+  Many files size: 150K
+  Number of small files: 10000
+
+Mount Points Tested:
+  - /mnt/hdd_storage
+  - /mnt/ssd_storage
+  - /mnt/syn_hdd
+  - /mnt/syn_ssd
+  - /mnt/nuc-data/Team
+
+Results Summary:
+================
+Source               Destination          Test Type       Time (s)     Rate (MB/s)  Size (bytes)
+--------------------------------------------------------------------------------
+nuc5                 hdd|huge             file            3            1706.66      5368709120  
+nuc5                 hdd|large            file            1            1024.00      1073741824  
+nuc5                 hdd|many             small_files     1            1465.15      1536327680  
+nuc5                 hdd|small            file            0            N/A          52428800    
+nuc5                 ssd|huge             file            4            1280.00      5368709120  
+nuc5                 ssd|large            file            1            1024.00      1073741824  
+nuc5                 ssd|many             small_files     1            1465.15      1536327680  
+nuc5                 ssd|small            file            0            N/A          52428800    
+nuc5                 file                                 29           176.55       5368709120  
+nuc5                 file                                 7            146.28       1073741824  
+nuc5                 small                files           148          9.89         1536327680  
+nuc5                 file                                 0            N/A          52428800    
+nuc5                 hdd|huge             file            9            568.88       5368709120  
+nuc5                 hdd|large            file            2            512.00       1073741824  
+nuc5                 hdd|many             small_files     36           40.69        1536327680  
+nuc5                 hdd|small            file            0            N/A          52428800    
+nuc5                 ssd|huge             file            8            640.00       5368709120  
+nuc5                 ssd|large            file            2            512.00       1073741824  
+nuc5                 ssd|many             small_files     36           40.69        1536327680  
+nuc5                 ssd|small            file            0            N/A          52428800    
+nuc5                 hdd|huge             file            3            1706.66      5368709120  
+nuc5                 hdd|large            file            1            1024.00      1073741824  
+nuc5                 hdd|many             small_files     1            1465.17      1536352256  
+nuc5                 hdd|small            file            0            N/A          52428800    
+nuc5                 ssd|huge             file            3            1706.66      5368709120  
+nuc5                 ssd|large            file            1            1024.00      1073741824  
+nuc5                 ssd|many             small_files     1            1465.17      1536352256  
+nuc5                 ssd|small            file            0            N/A          52428800    
+nuc5                 file                                 29           176.55       5368709120  
+nuc5                 file                                 5            204.80       1073741824  
+nuc5                 small                files           117          12.52        1536352256  
+nuc5                 file                                 1            50.00        52428800    
+nuc5                 hdd|huge             file            7            731.42       5368709120  
+nuc5                 hdd|large            file            2            512.00       1073741824  
+nuc5                 hdd|many             small_files     35           41.86        1536352256  
+nuc5                 hdd|small            file            0            N/A          52428800    
+nuc5                 ssd|huge             file            8            640.00       5368709120  
+nuc5                 ssd|large            file            2            512.00       1073741824  
+nuc5                 ssd|many             small_files     34           43.09        1536352256  
+nuc5                 ssd|small            file            0            N/A          52428800    
+nuc-data|nuc5        file                                 40           128.00       5368709120  
+nuc-data|nuc5        file                                 8            128.00       1073741824  
+nuc-data|nuc5        small                files           104          14.08        1536000000  
+nuc-data|nuc5        file                                 0            N/A          52428800    
+nuc-data|nuc5        file                                 37           138.37       5368709120  
+nuc-data|nuc5        file                                 7            146.28       1073741824  
+nuc-data|nuc5        small                files           95           15.41        1536000000  
+nuc-data|nuc5        file                                 0            N/A          52428800    
+nuc-data|nuc-data|huge                                      53           96.60        5368709120  
+nuc-data|nuc-data|large                                      11           93.09        1073741824  
+nuc-data|nuc-data|many files                                199          7.36         1536000000  
+nuc-data|nuc-data|small                                      0            N/A          52428800    
+nuc-data|syn         file                                 37           138.37       5368709120  
+nuc-data|syn         file                                 8            128.00       1073741824  
+nuc-data|syn         small                files           133          11.01        1536000000  
+nuc-data|syn         file                                 1            50.00        52428800    
+nuc-data|syn         file                                 37           138.37       5368709120  
+nuc-data|syn         file                                 8            128.00       1073741824  
+nuc-data|syn         small                files           131          11.18        1536000000  
+nuc-data|syn         file                                 1            50.00        52428800    
+syn                  hdd|huge             file            4            1280.00      5368709120  
+syn                  hdd|large            file            1            1024.00      1073741824  
+syn                  hdd|many             small_files     20           73.25        1536257788  
+syn                  hdd|small            file            0            N/A          52428800    
+syn                  ssd|huge             file            3            1706.66      5368709120  
+syn                  ssd|large            file            1            1024.00      1073741824  
+syn                  ssd|many             small_files     14           104.64       1536257788  
+syn                  ssd|small            file            0            N/A          52428800    
+syn                  file                                 29           176.55       5368709120  
+syn                  file                                 6            170.66       1073741824  
+syn                  small                files           135          10.85        1536257788  
+syn                  file                                 0            N/A          52428800    
+syn                  hdd|huge             file            9            568.88       5368709120  
+syn                  hdd|large            file            1            1024.00      1073741824  
+syn                  hdd|many             small_files     46           31.84        1536257788  
+syn                  hdd|small            file            1            50.00        52428800    
+syn                  ssd|huge             file            8            640.00       5368709120  
+syn                  ssd|large            file            1            1024.00      1073741824  
+syn                  ssd|many             small_files     45           32.55        1536257788  
+syn                  ssd|small            file            1            50.00        52428800    
+syn                  hdd|huge             file            4            1280.00      5368709120  
+syn                  hdd|large            file            1            1024.00      1073741824  
+syn                  hdd|many             small_files     21           69.76        1536257788  
+syn                  hdd|small            file            0            N/A          52428800    
+syn                  ssd|huge             file            3            1706.66      5368709120  
+syn                  ssd|large            file            1            1024.00      1073741824  
+syn                  ssd|many             small_files     12           122.09       1536257788  
+syn                  ssd|small            file            0            N/A          52428800    
+syn                  file                                 30           170.66       5368709120  
+syn                  file                                 6            170.66       1073741824  
+syn                  small                files           127          11.53        1536257788  
+syn                  file                                 0            N/A          52428800    
+syn                  hdd|huge             file            8            640.00       5368709120  
+syn                  hdd|large            file            2            512.00       1073741824  
+syn                  hdd|many             small_files     44           33.29        1536257788  
+syn                  hdd|small            file            0            N/A          52428800    
+syn                  ssd|huge             file            8            640.00       5368709120  
+syn                  ssd|large            file            2            512.00       1073741824  
+syn                  ssd|many             small_files     44           33.29        1536257788  
+syn                  ssd|small            file            0            N/A          52428800    
+
+Performance Analysis:
+====================
+Fastest operation: nuc5_hdd|nuc5_hdd|huge_file (1706.66 MB/s)
+Slowest operation: nuc-data|nuc-data|many_small_files (7.36 MB/s)
